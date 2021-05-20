@@ -1,0 +1,99 @@
+---
+title: "DE Package comparison"
+author: "Isabela Kernin"
+date: "January 12, 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load packages and DESeq2 results
+
+```{r}
+library(edgeR)
+library(limma)
+library(VennDiagram)
+library(RColorBrewer)
+```
+
+## edgeR
+
+```{r}
+## store data for edgeR
+dgList <- DGEList(counts = GE_data, genes = rownames(GE_data))
+
+## filtering : keep genes with greater than 1cmp in at least two samples
+countsPerMillion <- cpm(dgList)
+countCheck <- countsPerMillion > 1 ## at least cmp
+keep <- which(rowSums(countCheck) >= 2) ## in >= 2 samples
+dgList <- dgList[keep,]
+
+## normalization: TMM default
+dgList <- calcNormFactors(dgList, method = "TMM")
+
+## set up design formula/matrix
+condition <- coldata$condition
+condition <- relevel(condition, ref = "neg")
+sex <- coldata$sex
+ageBin <- coldata$ageBin
+
+designMat <- model.matrix(~condition + sex + ageBin)
+
+## estimate commonn + tagwise + trended dispersions
+dgList <- estimateDisp(dgList, designMat) 
+
+## model fitting and testing
+fit <- glmFit(dgList, designMat) ## fit negative binomial model
+lrt <- glmLRT(fit, coef = 2) ## LRT for pos vs neg condition
+
+topTags(lrt)
+results_edgeR <- topTags(lrt, n=Inf, sort.by = "PValue", adjust.method = "BH")
+beep(2)
+```
+
+
+## limma
+
+```{r}
+## transform counts to log2-cpm and estimate mean-var relationship
+dge <- dgList
+dge <- calcNormFactors(dgList)
+logCMP <- cpm(dge, log=TRUE, prior.count = 3)
+
+## fit model and test
+fit <- lmFit(logCMP, designMat)
+fit <- eBayes(fit)
+
+results_limma <- topTable(fit, coef = "conditionpos", number = Inf, adjust.method = "BH", sort.by = "logFC")
+beep(2)
+```
+
+
+## Venn Diagram of DE results
+
+```{r}
+## get colors for venn diagram
+myCol <- brewer.pal(3, "Pastel1")
+
+## create and save venn diagram for significantly expressed genes with padj <= 0.05 and  abs(LFC) > 0.58
+venn.diagram(x = list(rownames(subset(results_edgeR$table, (FDR <=0.05 & abs(logFC) > 0.58))), rownames(subset(res_covid2, (padj <=0.05 & abs(log2FoldChange) > 0.58))), rownames(subset(results_limma, (adj.P.Val <=0.05 & abs(logFC) > 0.58)))), 
+             category.names = c("edgeR", "DESeq2", "limma"),
+             filename = 'venn_DEpackages2.png',
+             output = TRUE,
+             fill = myCol)
+
+## create a simpler venn diagram to view in R
+venn<- list(edger = rownames(subset(results_edgeR$table, (FDR <=0.05 & abs(logFC) > 0.58))), deseq2 = rownames(subset(res_covid2, (padj <=0.05 & abs(log2FoldChange) > 0.58))), limma = rownames(subset(results_limma, (adj.P.Val <=0.05 & abs(logFC) > 0.58))))
+
+gplots::venn(venn)
+```
+
+```{r}
+venn<- list(males = male_g, females = female_g)
+gplots::venn(venn)
+```
+
+
+

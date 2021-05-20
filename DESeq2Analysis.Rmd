@@ -1,0 +1,333 @@
+---
+title: "DESeq2"
+author: "Isabela Kernin"
+date: "January 12, 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Load Data and required packages 
+
+```{r}
+## load packages for DESeq2 and parallel computing
+library(DESeq2)
+library(BiocParallel)
+library(tidyverse)
+register(SnowParam(6)) # register cores for parallel computing
+
+## load the data
+load("coldata.Rdata") 
+load("GE_data.Rdata")
+```
+
+//test with interaction term
+
+```{r}
+dds <- DESeqDataSetFromMatrix(countData = GE_data, 
+                              colData = coldata,
+                              design = ~ ageBin + sex + condition + ageBin:condition)
+
+## run analysis (takes a long time to run... ~10min)
+dds <- DESeq(dds, parallel = TRUE)
+resultsNames(dds)
+beep(2)
+```
+
+```{r}
+summary(res_sint2)
+rank <- order(res_sint2$padj[which(res_sint2$padj < .05)])
+sig <- res_sint2[which(res_sint2$padj < .05), ]
+sig <- sig[rank, ]
+sig
+```
+
+
+
+
+```{r}
+res_a1int1 <- results(dds, name =  "ageBin30_59.conditionpos", alpha = .05)
+summary(res_a1int1)
+res_a1int1[which(res_a1int1$padj < .05),]
+```
+
+```{r}
+res_a2int1<- results(dds, name = "ageBin60_100.conditionpos", alpha = .05)
+summary(res_a2int1)
+res_a2int1[which(res_a2int1$padj < .05),]
+```
+
+```{r}
+res_a3int2<- results(dds, name = "ageBin65_100.conditionpos", alpha = .05)
+summary(res_a3int2)
+res_a3int2[which(res_a3int2$padj < .05),]
+```
+
+graphs
+
+```{r}
+normalized_counts <- counts(dds, normalized=TRUE) # get normalized count data
+
+normalized_counts <- normalized_counts %>%
+  data.frame() %>%
+  rownames_to_column(var = "gene") %>%
+  as_tibble()
+
+coldata_table <- coldata %>%
+  rownames_to_column(var = "samplename") %>%
+  as_tibble()
+
+####
+res_table <- res_sint2 %>%
+     data.frame() %>%
+     rownames_to_column(var="gene") %>% 
+     as_tibble()
+
+sig_res <- res_table %>%
+ dplyr::filter(padj < .05)
+
+sig_counts <- normalized_counts %>% dplyr::filter(gene %in% rownames(sig)[16:20])
+
+gather_sig_counts <- sig_counts %>%
+  gather(colnames(sig_counts)[2:432], key = "samplename", value = "normalized_counts")
+
+gathered_data <- inner_join(coldata_table, gather_sig_counts)
+
+ggplot(gathered_data, aes(x = condition, y = normalized_counts + 1, color = sex)) +
+  geom_boxplot() +
+  geom_jitter(position=position_dodge(0.8), alpha =.6) +
+  scale_y_continuous(trans = 'log2') +
+  xlab("Condition (Cov-/+)") +
+  ylab("Log2(Normalized Counts + 1)") +
+  theme_bw() +
+  facet_wrap(~gene) +
+  scale_fill_manual(values = brewer.pal(9, "PRGn")[c(8,2)]) +
+  scale_color_manual(values = brewer.pal(9, "PRGn")[c(8,2)])
+```
+
+
+
+```{r}
+summary(res_a1int2)
+res_a1int2[which(res_a1int2$padj < .05),]
+```
+
+```{r}
+summary(res_a2int2)
+res_a2int2[which(res_a2int2$padj < .05),]
+```
+
+```{r}
+summary(res_a3int2)
+res_a3int2[which(res_a3int2$padj < .05),]
+```
+
+```{r}
+####
+sig_counts1 <- normalized_counts %>% dplyr::filter(gene %in% c("AL669831.3", "STATH", "ZNF527", "HBA2", "MTCO1P40"))
+
+gather_sig_counts1 <- sig_counts1 %>%
+  gather(colnames(sig_counts1)[2:432], key = "samplename", value = "normalized_counts")
+
+gathered_data1 <- inner_join(coldata_table, gather_sig_counts1)
+ggplot(gathered_data1, aes(x = condition, y = normalized_counts + 1, color = ageBin)) +
+  geom_boxplot() +
+  geom_jitter(position=position_dodge(0.8), alpha =.6) +
+  scale_y_continuous(trans = 'log2') +
+  xlab("Condition (Cov-/+)") +
+  ylab("Log2(Normalized Counts + 1)") +
+  theme_bw() +
+  facet_wrap(~gene)  +
+  scale_color_discrete(name = "Age Bin", labels = c("0-29", "30-49", "50-64", "65-100"))
+```
+
+## Condition
+
+```{r}
+## construct DESeqDataSet from count matrix and metadata
+dds <- DESeqDataSetFromMatrix(countData = GE_data, 
+                              colData = coldata,
+                              design = ~ ageBin + sex + condition)
+
+## run analysis (takes a long time to run... ~10min)
+design(dds) <- ~ ageBin + sex + condition
+dds <- DESeq(dds, parallel = TRUE)
+```
+
+
+```{r}
+## plot dispersion estimates
+plotDispEsts(dds)
+
+## get results table
+res_covid2 <- results(dds, alpha = .05)
+save(res_covid2, file = "res_covid2.Rdata")
+summary(res_covid2)
+
+res_covid2_s <- lfcShrink(dds, coef="condition_pos_vs_neg", res = res_covid2, type = "apeglm", parallel = TRUE) # ~3min
+save(res_covid2_s, file="res_covid2_shrunken.Rdata")
+summary(res_covid2_s)
+#hist(res_shrunken$padj, breaks = 20, main = "Histogram of Adjusted P-Values", xlab = "Adjusted P-Value")
+
+## MA plots
+plotMA(res_covid2)
+plotMA(res_covid2_s)
+beep(2)
+```
+
+
+## Condition:Sex
+
+```{r}
+## create new factor group and run DESeq2
+dds$group <- factor(paste0(dds$sex, dds$condition))
+design(dds) <- ~ ageBin + group
+
+dds <- DESeq(dds, parallel = TRUE)
+
+## contrast different_sex:same_condition
+#contrast_sex <- c("group", "malepos", "femalepos")
+#res_sex <- results(dds, contrast = contrast_sex, alpha = 0.05)
+#res_sex_s <- lfcShrink(dds, contrast = contrast_sex, res = res_sex, type = "ashr", parallel = TRUE)
+
+#contrast_sex_control <- c("group", "maleneg", "femaleneg")
+#res_sex_control <- results(dds, contrast = contrast_sex_control, alpha = 0.05)
+#res_sex_cs <- lfcShrink(dds, contrast = contrast_sex_control, res = res_sex_control, type = "ashr", parallel = TRUE)
+
+## contrast same_sex:different_condition
+contrast_sex_male <- c("group", "maleneg", "malepos")
+res_sex_male2 <- results(dds, contrast = contrast_sex_male, alpha = 0.05)
+res_sex_ms2 <- lfcShrink(dds, contrast = contrast_sex_male, res = res_sex_male2, type = "ashr", parallel = TRUE)
+
+contrast_sex_female <- c("group", "femaleneg", "femalepos")
+res_sex_female2 <- results(dds, contrast = contrast_sex_female, alpha = 0.05)
+res_sex_fs2 <- lfcShrink(dds, contrast = contrast_sex_female, res = res_sex_female2, type = "ashr", parallel = TRUE)
+
+## save results tables
+#save(res_sex, res_sex_control, res_sex_male, res_sex_female, file = "sex_condition.Rdata")
+#save(res_sex_s, res_sex_cs, res_sex_ms, res_sex_fs, file = "sex_condition_s.Rdata")
+beep(2)
+```
+
+## Condition:Sex:Age
+
+```{r}
+## create new factor group and run DESeq2
+dds$group2 <- factor(paste0(dds$sex, dds$condition, dds$ageBin))
+design(dds) <- ~ group2
+
+dds <- DESeq(dds, parallel = TRUE)
+
+## Age group 0-29
+contrast_sex_age1 <- c("group2", "malepos0_29", "femalepos0_29")
+res_sex_age1 <- results(dds, contrast = contrast_sex_age1, alpha = 0.05)
+res_sex_age1s <- lfcShrink(dds, contrast = contrast_sex_age1, res = res_sex_age1, type = "ashr", parallel = TRUE)
+
+contrast_sex_age1c <- c("group2", "maleneg0_29", "femaleneg0_29")
+res_sex_age1c <- results(dds, contrast = contrast_sex_age1c, alpha = 0.05)
+res_sex_age1cs <- lfcShrink(dds, contrast = contrast_sex_age1c, res = res_sex_age1c, type = "ashr", parallel = TRUE)
+
+contrast_sex_age1m <- c("group2", "maleneg0_29", "malepos0_29")
+res_sex_age1m <- results(dds, contrast = contrast_sex_age1m, alpha = 0.05)
+res_sex_age1ms <- lfcShrink(dds, contrast = contrast_sex_age1m, res = res_sex_age1m, type = "ashr", parallel = TRUE)
+
+contrast_sex_age1f <- c("group2", "femaleneg0_29", "femalepos0_29")
+res_sex_age1f <- results(dds, contrast = contrast_sex_age1f, alpha = 0.05)
+res_sex_age1fs <- lfcShrink(dds, contrast = contrast_sex_age1f, res = res_sex_age1f, type = "ashr", parallel = TRUE)
+
+
+## Age group 30-59
+contrast_sex_age2 <- c("group2", "malepos30_59", "femalepos30_59")
+res_sex_age2 <- results(dds, contrast = contrast_sex_age2, alpha = 0.05)
+res_sex_age2s <- lfcShrink(dds, contrast = contrast_sex_age2, res = res_sex_age2, type = "ashr", parallel = TRUE)
+
+contrast_sex_age2c <- c("group2", "maleneg30_59", "femaleneg30_59")
+res_sex_age2c <- results(dds, contrast = contrast_sex_age2c, alpha = 0.05)
+res_sex_age2cs <- lfcShrink(dds, contrast = contrast_sex_age2c, res = res_sex_age2c, type = "ashr", parallel = TRUE)
+
+contrast_sex_age2m <- c("group2", "maleneg30_59", "malepos30_59")
+res_sex_age2m <- results(dds, contrast = contrast_sex_age2m, alpha = 0.05)
+res_sex_age2ms <- lfcShrink(dds, contrast = contrast_sex_age2m, res = res_sex_age2m, type = "ashr", parallel = TRUE)
+
+contrast_sex_age2f <- c("group2", "femaleneg30_59", "femalepos30_59")
+res_sex_age2f <- results(dds, contrast = contrast_sex_age2f, alpha = 0.05)
+res_sex_age2fs <- lfcShrink(dds, contrast = contrast_sex_age2f, res = res_sex_age2f, type = "ashr", parallel = TRUE)
+
+
+## Age Group 60-100
+contrast_sex_age3 <- c("group2", "malepos60_100", "femalepos60_100")
+res_sex_age3 <- results(dds, contrast = contrast_sex_age3, alpha = 0.05)
+res_sex_age3s <- lfcShrink(dds, contrast = contrast_sex_age3, res = res_sex_age3, type = "ashr", parallel = TRUE)
+
+contrast_sex_age3c <- c("group2", "maleneg60_100", "femaleneg60_100")
+res_sex_age3c <- results(dds, contrast = contrast_sex_age3c, alpha = 0.05)
+res_sex_age3cs <- lfcShrink(dds, contrast = contrast_sex_age3c, res = res_sex_age3c, type = "ashr", parallel = TRUE)
+
+contrast_sex_age3m <- c("group2", "maleneg60_100", "malepos60_100")
+res_sex_age3m <- results(dds, contrast = contrast_sex_age3m, alpha = 0.05)
+res_sex_age3ms <- lfcShrink(dds, contrast = contrast_sex_age3m, res = res_sex_age3m, type = "ashr", parallel = TRUE)
+
+contrast_sex_age3f <- c("group2", "femaleneg60_100", "femalepos60_100")
+res_sex_age3f <- results(dds, contrast = contrast_sex_age3f, alpha = 0.05)
+res_sex_age3fs <- lfcShrink(dds, contrast = contrast_sex_age3f, res = res_sex_age3f, type = "ashr", parallel = TRUE)
+
+## save result tables
+save(res_sex_age1, res_sex_age1c, res_sex_age1m, res_sex_age1f, 
+     res_sex_age2, res_sex_age2c, res_sex_age2m, res_sex_age2f,
+     res_sex_age3, res_sex_age3c, res_sex_age3m, res_sex_age3f,
+     file = "age_sex_condition.Rdata")
+save(res_sex_age1s, res_sex_age1cs, res_sex_age1ms, res_sex_age1fs, 
+     res_sex_age2s, res_sex_age2cs, res_sex_age2ms, res_sex_age2fs,
+     res_sex_age3s, res_sex_age3cs, res_sex_age3ms, res_sex_age3fs,
+     file = "age_sex_condition_s.Rdata")
+```
+
+
+## Subset
+
+```{r}
+# find genes sig DE between +/- males and +/- females
+male_g <- rownames(res_sex_male2)[which(res_sex_male2$padj < 0.05)]
+female_g <- rownames(res_sex_female2)[which(res_sex_female2$padj < 0.05)]
+
+venn<- list(males = male_g, females = female_g)
+gplots::venn(venn)
+
+# find overlapping genes
+overlap <- male_g[which(male_g %in% female_g)] 
+
+# get subset of non-overlapping genes
+fg <- female_g[!(female_g %in% overlap)]
+mg <- male_g[!(male_g %in% overlap)]
+total <- c(fg, mg)
+```
+
+```{r}
+res_ia2 <- res_sint2 %>%
+  data.frame() %>%
+  rownames_to_column(var = "gene") %>%
+  as_tibble()
+
+res_ia2_ind <- res_ia2 %>% dplyr::filter(gene %in% total)
+```
+
+```{r}
+hist(res_ia2$padj)
+
+y <- log(res_ia2_ind$padj,10)
+qqplot(y, qunif(ppoints(length(y)), min = 0, max=1), xlab = "Theoretical Uniform(0,1) Quantiles", ylab = "log10(Adjusted P-value) Quantiles")
+qqline(y, distribution = qnorm, col = "red")
+
+qqplot(res_ia2_ind$padj, qunif(ppoints(length(y)), min = 0, max=1), xlab = "Theoretical Uniform(0,1) Quantiles", ylab = "Adjusted P-value Quantiles")
+qqline(res_ia2_ind$padj, distribution = qnorm, col="red")
+
+qqplot(res_ia2_ind$pvalue, qunif(ppoints(length(y)), min = 0, max=1), xlab = "Theoretical Uniform(0,1) Quantiles", ylab = " P-value Quantiles")
+
+```
+
+
+
+

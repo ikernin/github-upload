@@ -1,0 +1,121 @@
+---
+title: "Loading and cleaning data"
+author: "Isabela Kernin"
+date: "January 12, 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load Data from NCBI project summary file
+
+```{r}
+## load packages to parse text file
+library(iterators)
+library(foreach)
+library(stringr)
+
+## function to get age, sex, and sample_id from a line of text
+getInfo <- function(line){
+  age <- str_extract(line, "age=\"[0-9]+\"|age=\"[0-9]{1,}\\+\"|age=\"\\D+\"") 
+  sex <- str_extract(line, "sex=\"\\D+\"")
+  sample_id <- str_extract(line, "NEG_[0-9]+|POS_[0-9]+")
+  df <- data.frame(cbind(age, sex, sample_id))
+  return(df)
+}
+
+## parse info from the text file
+raw_file <- file("biosample_result.txt", "r") # open file for reading in text mode
+raw_line_iterator <- ireadLines(raw_file, n = 1) # iterate through each line in file
+raw_df <- foreach(r = raw_line_iterator, .combine = "rbind") %do% 
+  getInfo(r) # for each line run getInfo function
+
+## remove NA values (lines without selected info)
+sample_id <- as.character(raw_df$sample_id[!is.na(raw_df$sample_id)])
+age <- as.character(raw_df$age[!is.na(raw_df$age)])
+sex <- as.character(raw_df$sex[!is.na(raw_df$sex)])
+
+## create a column for test status
+test_pos <- rep(FALSE, length(sample_id))
+
+## clean the parsed text strings
+for (i in 1:length(sample_id)){
+  age[i]<- str_extract(age[i], "90\\+|[0-9]+|Unknown")
+  sex[i] <- str_extract(sex[i], "male|female|not collected")
+  test_pos[i] <- grepl("POS", sample_id[i])
+}
+
+age[which(age == "Unknown")] <- NA # convert "Unknown" to NA values
+age[which(age == "90+")] <- "90" # convert 90+ to 90 
+
+## join cleaned strings into a dataset
+project_info <- data.frame(cbind(age, sex, test_pos))
+rownames(project_info) <- sample_id
+
+## alter columns so they are stored as the correct data type
+project_info$sex <- as.factor(project_info$sex)
+project_info$age <- as.numeric(age)
+project_info$test_pos <- as.logical(test_pos)
+
+## check resulting dataframe
+summary(project_info)
+```
+
+
+## Data Cleaning and Visualization
+
+```{r}
+## load packages for visualization
+library(ggplot2)
+library(dplyr)
+
+## remove samples with missing data
+## all missing data values are from infected subjects: 430 cov+ -> 377 cov+
+project_info <- project_info[which(!is.na(project_info$age)), ]
+project_info <- project_info[which(project_info$sex != "not collected"),]
+project_info <- droplevels(project_info)
+summary(project_info)
+
+## view infection status by age and sex
+hist_age <- ggplot(data = project_info, aes(x=age, fill=test_pos)) + geom_histogram(breaks = seq(10,90, by=10), col = "white", position = "dodge")+ scale_x_continuous(breaks = seq(10,90,10)) 
+hist_age + facet_wrap(~ sex)  + ggtitle("A) Frequency histogram of age by sex") + geom_hline(yintercept = 3) +  ylab("Count") + xlab("Age") + scale_fill_discrete(name = "Condition", labels = c("Cov-", "Cov+"))
+
+## create age bins to deal with low sample counts
+for (i in 1:nrow(project_info)){
+  age <- project_info[i, "age"]
+  if (age > 0 & age <=29){project_info[i,"ageBin1"] = "0_29"}
+  else if (age >= 30 & age <=59){project_info[i,"ageBin1"] = "30_59"}
+  else {project_info[i,"ageBin1"] = "60_100"}
+}
+project_info$ageBin1 <- as.factor(project_info$ageBin1)
+
+## view infection status by age bin and sex
+hist_ageBins1 <- ggplot(project_info, aes(ageBin1)) + geom_bar(aes(fill = test_pos), position = "dodge")
+hist_ageBins1 + facet_wrap(~ sex) + geom_hline(yintercept = 3) + ggtitle("Frequency histogram of age bins by sex") + ylab("Count") + xlab("Age Bin") + scale_fill_discrete(name = "Condition", labels = c("Cov-", "Cov+"))
+
+## save cleaned dataset 
+save(project_info, file = "cleaned_data.Rdata")
+```
+
+
+## Try alternate age bins
+
+```{r}
+## try different age bins 
+### make sure _ vs - for DE analysis 
+for (i in 1:nrow(project_info)){
+  age <- project_info[i, "age"]
+  if (age > 0 & age <=29){project_info[i,"ageBin2"] = "0-29"}
+  else if (age >= 30 & age <=49){project_info[i,"ageBin2"] = "30-49"}
+  else if (age >= 50 & age <= 64){project_info[i,"ageBin2"] = "50-64"}
+  else {project_info[i,"ageBin2"] = "65-100"}
+}
+project_info$ageBin2 <- as.factor(project_info$ageBin2)
+
+hist_ageBins2 <- ggplot(project_info, aes(ageBin2)) + geom_bar(aes(fill = test_pos), position = "dodge")
+hist_ageBins2 + facet_wrap(~ sex) + geom_hline(yintercept = 3) + ggtitle("B) Frequency histogram of age bins by sex") + ylab("Count") + xlab("Age Bin") + scale_fill_discrete(name = "Condition", labels = c("Cov-", "Cov+")) 
+```
+
+
