@@ -1,6 +1,6 @@
 ## MS Thesis: Exploring Host Response to SARS-CoV-2 Through Differential Expression Analysis
 
-[Final paper can be found here.](https://www.google.com)
+[Final paper can be found here.](https://drive.google.com/file/d/1oT4stUhPQGXR4aRvsWTFKjytG6QcOqGc/view?usp=sharing)
 
 
 Summary:
