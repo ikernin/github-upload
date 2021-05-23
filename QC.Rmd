@@ -20,18 +20,19 @@ library(BiocParallel)
 register(SnowParam(6)) 
 
 ## load subject information and gene count matrix
-load("cleaned_data.Rdata")
+load("cleaned_data.Rdata") # Data from cleaningData.Rmd
 GE_data <- read.delim("GSE152075_raw_counts_GEO.txt", header = TRUE, sep = " ")
 
-## create metadata table for DESeq
-coldata <- project_info[,1:2]
+## create metadata table for DESeq (convert test_pos to string instead of bool)
+coldata <- project_info[-3] #remove test_pos
 coldata$condition <- "negative"
 coldata$condition[which(project_info$test_pos == TRUE)] <- "positive"
 coldata[,"condition"] <- as.factor(coldata$condition)
-coldata$ageBin <- project_info$ageBin2 ######### make sure using right age bin #########
+coldata$ageBin <- project_info$ageBin
 
 ## relevel factors so that control level is first factor level
-coldata$condition <- relevel(coldata$condition, ref = "negative") 
+coldata$condition <- relevel(coldata$condition, ref = "negative")
+save(coldata, file = "coldata.Rdata")
 
 ## check that sample_id's match in metadata and count matrix
 all(rownames(coldata) %in% colnames(GE_data)) # check all same ids
@@ -56,92 +57,71 @@ vsd_mat <- assay(vsd)
 ## PCA 
 
 ```{r}
+## load packages for figures
+library(ggplot2)
+library(RColorBrewer)
+
 ## run PCA
 pca <- prcomp(t(vsd_mat)) 
 pca_df <- cbind(coldata, pca$x) 
 percentVar <- pca$sdev^2/sum(pca$sdev^2) 
 
 ## plot PC1 vs PC2 for condition
-ggplot(pca_df) + geom_point(aes(x=PC1, y=PC2, color = condition)) + xlab(paste0("PC1: ",round(percentVar[1] * 100),"% variance")) +
-      ylab(paste0("PC2: ",round(percentVar[2] * 100),"% variance")) + ggtitle("PC1 vs PC2 by Condition") + scale_color_discrete(name = "Condition", labels = c("Cov-", "Cov+"))
+ggplot(pca_df) + geom_point(aes(x=PC1, y=PC2, color = condition)) + 
+              xlab(paste0("PC1: ",round(percentVar[1] * 100),"% variance")) +
+              ylab(paste0("PC2: ",round(percentVar[2] * 100),"% variance")) + 
+              ggtitle("PC1 vs PC2 by Condition") + 
+              scale_color_discrete(name = "Condition", labels = c("Cov-", "Cov+"))
 
 ## PC1 v PC2 for sex
-ggplot(pca_df) + geom_point(aes(x=PC1, y=PC2, color = sex)) + xlab(paste0("PC1: ",round(percentVar[1] * 100),"% variance")) + ylab(paste0("PC2: ",round(percentVar[2] * 100),"% variance")) + scale_color_discrete(name = "Sex", labels = c("Female", "Male"), type= brewer.pal(9, "PRGn")[c(8,2)])  + ggtitle("PC1 vs PC2 by Sex")
+ggplot(pca_df) + geom_point(aes(x=PC1, y=PC2, color = sex)) +
+              xlab(paste0("PC1: ",round(percentVar[1] * 100),"% variance")) + 
+              ylab(paste0("PC2: ",round(percentVar[2] * 100),"% variance")) + 
+              scale_color_discrete(name = "Sex", labels = c("Female", "Male"), type= brewer.pal(9, "PRGn")[c(8,2)]) + 
+              ggtitle("PC1 vs PC2 by Sex")
 
 ## PC1 v PC2 for age bin
-ggplot(pca_df) + geom_point(aes(x=PC1, y=PC2, color = ageBin)) + xlab(paste0("PC1: ",round(percentVar[1] * 100),"% variance")) + ylab(paste0("PC2: ",round(percentVar[2] * 100),"% variance")) + scale_color_discrete(name = "Age Bin", labels = c("0-29", "30-49","50-64", "65-100"))  + ggtitle("PC1 vs PC2 by Age Bin")
+ggplot(pca_df) + geom_point(aes(x=PC1, y=PC2, color = ageBin)) + 
+              xlab(paste0("PC1: ",round(percentVar[1] * 100),"% variance")) + 
+              ylab(paste0("PC2: ",round(percentVar[2] * 100),"% variance")) + 
+              scale_color_discrete(name = "Age Bin", labels = c("0-29", "30-49","50-64", "65-100")) + 
+              ggtitle("PC1 vs PC2 by Age Bin")
 ```
 
-## Heatmap by condition
+## Heatmap by the three annotation columns (sex, age, condition)
 
 ```{r}
 ## load heatmap and coloring packages
 library(pheatmap)
 library(RColorBrewer)
 
-## create heatmap for Euclidian sample distances
+## get distance between samples for the normalized counts
 sampleDists <- dist(t(vsd_mat))
 sampleDist_mat <- as.matrix(sampleDists)
 cond <- as.data.frame(coldata$condition) 
 
-colnames(sampleDist_mat) <- colnames(vsd)
-rownames(cond) <- colnames(sampleDist_mat)
-
-ann_col <- data.frame(cond)
-colnames(ann_col) <- c("Condition")
-ann_col$Condition <- as.character(ann_col$Condition)
-ann_col$Condition[which(ann_col$Condition == 'neg')] = 'Cov-'
-ann_col$Condition[which(ann_col$Condition == 'pos')] = 'Cov+'
-ann_col$Condition <- as.factor(ann_col$Condition)
-
-pheatmap(sampleDist_mat, show_rownames = F, show_colnames = F, clustering_distance_rows = sampleDists, clustering_distance_cols = sampleDists, annotation_col = ann_col, annotation_names_col = F, main = "Heatmap of Euclidean Sample Distances")
-
-## create heatmap for sample correlations 
-vsd_cor <- cor(vsd_mat)
-pheatmap(vsd_cor, show_rownames = F, show_colnames = F, clustering_distance_rows = sampleDists, clustering_distance_cols = sampleDists, annotation_col = ann_col, annotation_names_col = F, main = "Heatmap of Sample Correlations")
-```
-
-Heatmap by sex
-
-```{r}
-cond <- as.data.frame(coldata$sex) 
-rownames(cond) <- colnames(sampleDist_mat)
-ann_col <- data.frame(cond)
-colnames(ann_col) <- c("Sex")
-
-pheatmap(sampleDist_mat, show_rownames = FALSE, show_colnames = FALSE, clustering_distance_rows = sampleDists, clustering_distance_cols = sampleDists, annotation_col = ann_col, annotation_names_col = F, main = "Heatmap of Euclidean Sample Distances")
-```
-
-Heatmap by age bin
-
-```{r}
-## create heatmap for Euclidian sample distances
-cond <- as.data.frame(coldata$ageBin) 
-rownames(cond) <- colnames(sampleDist_mat)
-ann_col <- data.frame(cond)
-colnames(ann_col) <- c("AgeBin")
-
-
-pheatmap(sampleDist_mat, show_rownames = FALSE, show_colnames = FALSE, clustering_distance_rows = sampleDists, clustering_distance_cols = sampleDists, annotation_col = ann_col, annotation_names_col = F, main = "Heatmap of Euclidean Sample Distances")
-```
-
-## Three annotation columns
-
-```{r}
-cond <- as.data.frame(coldata[,c(4,2,3)]) 
+## create annotation table for heatmap
+cond <- as.data.frame(coldata[,c(3,2,4)]) 
 rownames(cond) <- colnames(sampleDist_mat)
 ann_col <- data.frame(cond)
 colnames(ann_col) <- c("AgeBin", "Sex", "Condition")
+ann_col$Condition <- as.character(ann_col$Condition)
+ann_col$Condition[which(ann_col$Condition == 'negative')] = 'Cov-'
+ann_col$Condition[which(ann_col$Condition == 'positive')] = 'Cov+'
+ann_col$Condition <- as.factor(ann_col$Condition)
 
+## assign heatmap colors
 mat_colors <- list(group = brewer.pal(9, "Set3"))
-print(mat_colors)
-
 ann_colors = list(
-    AgeBin= c("0-29" = "#8DD3C7", "30-49" = "#FFFFB3", "50-64" = "#FDB462", "65-100" = "#BEBADA"),
+    AgeBin= c("0_29" = "#8DD3C7", "30_49" = "#FFFFB3", "50_64" = "#FDB462", "65_100" = "#BEBADA"),
     Sex = c(female = "#5AAE61", male = "#9970AB"),
     Condition = c("Cov-" = "#00BFC4", "Cov+" = "#F8766D")
 )
 
-pheatmap(sampleDist_mat, show_rownames = FALSE, show_colnames = FALSE, clustering_distance_rows = sampleDists, clustering_distance_cols = sampleDists, annotation_col = ann_col, annotation_colors = ann_colors, annotation_names_col = F, main = "Heatmap of Euclidean Sample Distances")
+## create heatmap
+pheatmap(sampleDist_mat, show_rownames = FALSE, show_colnames = FALSE, 
+         clustering_distance_rows = sampleDists, clustering_distance_cols = sampleDists, 
+         annotation_col = ann_col, annotation_colors = ann_colors, annotation_names_col = F, 
+         main = "Heatmap of Euclidean Sample Distances")
 ```
 

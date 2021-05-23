@@ -20,20 +20,20 @@ library(annotables) # contains annotation tables: grch37 contains human annotati
 library(gprofiler2) # ORA similar to clusterProfiler
 library(treemap) # used to visualize REVIGO results
 
-load("res_covid_shrunken.Rdata")
+load("res_cond_shrunken.Rdata") # from DESeq2Analysis.Rmd
 ```
 
-## ORA
+## Over Representation Analysis (ORA)
 
 ```{r}
 ## convert to tibble
-res_covid2_t <- res_covid2_s %>%
+res_shrunken_t <- res_cond_s %>%
   data.frame() %>%
   rownames_to_column(var="gene") %>%
   as_tibble()
 
 ## get entrez ids (ensembl) for the gene symbols in DE results
-idx <- grch37$symbol %in% rownames(res_covid2_s)
+idx <- grch37$symbol %in% rownames(res_cond_s)
 ids <- grch37[idx, ]
 
 ## remove duplicate IDs since gene names can map to more than one Ensembl ID since some genes change id over time
@@ -41,7 +41,7 @@ non_duplicates <- which(duplicated(ids$symbol) == FALSE)
 ids <- ids[non_duplicates, ]
 
 ## merge ids with results
-res_ids <- inner_join(res_covid2_t, ids, by=c("gene"="symbol"))
+res_ids <- inner_join(res_shrunken_t, ids, by=c("gene"="symbol"))
 
 ## for over-representation analysis need list of background genes(all genes tested for DE) and list of significant genes
 all_genes <- as.character(res_ids$ensgene)
@@ -60,38 +60,14 @@ ego <- enrichGO(gene = sig_genes,
 
 ## output results to a table
 cluster_summary <- data.frame(ego)
-beep(2)
-```
 
-```{r}
 #dotplot shows number of genes associated with the first n terms
 #top n genes by gene ratio = #genes related to GO term/#significant genes
 # options for x axis are x = 'GeneRatio' or 'Count'
 clusterProfiler::dotplot(ego, showCategory = 20) 
-
-## get condensed categories
-gprofiler_results <- gost(query = sig_genes, 
-                                  organism = "hsapiens",
-                                  ordered_query = F, 
-                                  exclude_iea = F, 
-                                  user_threshold = 0.05, 
-                                  correction_method = "g_SCS",
-                                  domain_scope = "custom_annotated",
-                                  custom_bg = all_genes)
-
-## Order the results by p-adjusted value
-gprofiler_res<- gprofiler_results$result
-gprofiler_res <- gprofiler_res[order(gprofiler_res$p_value), ]
-
-## Extract only the 'GO' terms from the results
-gprofiler_res_GOs <- gprofiler_res[grep('GO:', gprofiler_res$term_id), ]
-
-## Extract only GO IDs and p-values for downstream analysis
-GOpval <- gprofiler_res_GOs[ , c("term_id", "p_value")]
-write.table(GOpval, "GOs_covid.txt", quote=FALSE, row.names = FALSE, col.names = FALSE)
 ```
 
-## GSEA
+## Gene Set Enrichment Analysis (GSEA)
 
 ```{r}
 ## remove NA values and any Entrez duplicates (due to gene ID conversion)
@@ -115,22 +91,17 @@ gseaGO <- gseGO(geneList = foldchange,
 
 gseaGO_results <- gseaGO@result
 
-## plot top 20 categories
-dotplot(gseaGO, showCategory=20)
-beep(2)
-```
-
-```{r}
+## plot top 20 categories with normalized enrichment score
 plot_cond <- gseaGO_results[order(gseaGO_results$p.adjust), c("Description", "p.adjust", "NES")]
 plot_cond <- plot_cond[1:20, ] #top 20 GO terms by adjusted p-val
 
 ggplot(data = plot_cond, 
-       aes(x=reorder(Description, NES), y=NES, fill=p.adjust)) + 
-  geom_bar(stat="identity") +
-  coord_flip() +
-  labs(x="GO Term", y="Normalized Enrichment Score", 
-       title="Top 20 GO Terms", 
-       subtitle = "Cov+ compared to Cov-") +
-  theme(plot.title = element_text(hjust = 0.5),  plot.subtitle = element_text(hjust = 0.5)) +
-  scale_fill_distiller(palette="GnBu")
+      aes(x=reorder(Description, NES), y=NES, fill=p.adjust)) + 
+      geom_bar(stat="identity") +
+      coord_flip() +
+      labs(x="GO Term", y="Normalized Enrichment Score", 
+            title="Top 20 GO Terms", 
+            subtitle = "Cov+ compared to Cov-") +
+      theme(plot.title = element_text(hjust = 0.5),  plot.subtitle = element_text(hjust = 0.5)) +
+      scale_fill_distiller(palette="GnBu")
 ```

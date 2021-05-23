@@ -1,0 +1,5818 @@
+1: NEG_043
+Identifiers: BioSample: SAMN15185339; GEO: GSM4602708
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="72"
+    /sex="male"
+    /sequencing_batch="U"
+Accession: SAMN15185339	ID: 15185339
+
+2: NEG_046
+Identifiers: BioSample: SAMN15185338; GEO: GSM4602709
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="44"
+    /sex="male"
+    /sequencing_batch="S"
+Accession: SAMN15185338	ID: 15185338
+
+3: NEG_047
+Identifiers: BioSample: SAMN15185337; GEO: GSM4602710
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="52"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185337	ID: 15185337
+
+4: NEG_048
+Identifiers: BioSample: SAMN15185336; GEO: GSM4602711
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="43"
+    /sex="male"
+    /sequencing_batch="U"
+Accession: SAMN15185336	ID: 15185336
+
+5: NEG_049
+Identifiers: BioSample: SAMN15185335; GEO: GSM4602712
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="54"
+    /sex="male"
+    /sequencing_batch="U"
+Accession: SAMN15185335	ID: 15185335
+
+6: NEG_050
+Identifiers: BioSample: SAMN15185334; GEO: GSM4602713
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="54"
+    /sex="male"
+    /sequencing_batch="U"
+Accession: SAMN15185334	ID: 15185334
+
+7: NEG_051
+Identifiers: BioSample: SAMN15185333; GEO: GSM4602714
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="30"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185333	ID: 15185333
+
+8: NEG_052
+Identifiers: BioSample: SAMN15185332; GEO: GSM4602715
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="20"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185332	ID: 15185332
+
+9: NEG_054
+Identifiers: BioSample: SAMN15185331; GEO: GSM4602716
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="24"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185331	ID: 15185331
+
+10: NEG_055
+Identifiers: BioSample: SAMN15185330; GEO: GSM4602717
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="41"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185330	ID: 15185330
+
+11: NEG_056
+Identifiers: BioSample: SAMN15185329; GEO: GSM4602718
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="39"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185329	ID: 15185329
+
+12: NEG_057
+Identifiers: BioSample: SAMN15185328; GEO: GSM4602719
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="46"
+    /sex="male"
+    /sequencing_batch="S"
+Accession: SAMN15185328	ID: 15185328
+
+13: NEG_060
+Identifiers: BioSample: SAMN15185327; GEO: GSM4602722
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="22"
+    /sex="male"
+    /sequencing_batch="S"
+Accession: SAMN15185327	ID: 15185327
+
+14: NEG_062
+Identifiers: BioSample: SAMN15185326; GEO: GSM4602723
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="59"
+    /sex="male"
+    /sequencing_batch="U"
+Accession: SAMN15185326	ID: 15185326
+
+15: NEG_063
+Identifiers: BioSample: SAMN15185325; GEO: GSM4602724
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="49"
+    /sex="female"
+    /sequencing_batch="U"
+Accession: SAMN15185325	ID: 15185325
+
+16: NEG_065
+Identifiers: BioSample: SAMN15185324; GEO: GSM4602725
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="75"
+    /sex="male"
+    /sequencing_batch="R"
+Accession: SAMN15185324	ID: 15185324
+
+17: NEG_058
+Identifiers: BioSample: SAMN15185323; GEO: GSM4602720
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="47"
+    /sex="male"
+    /sequencing_batch="S"
+Accession: SAMN15185323	ID: 15185323
+
+18: NEG_059
+Identifiers: BioSample: SAMN15185322; GEO: GSM4602721
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="41"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185322	ID: 15185322
+
+19: NEG_018
+Identifiers: BioSample: SAMN15185321; GEO: GSM4602687
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="65"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185321	ID: 15185321
+
+20: NEG_019
+Identifiers: BioSample: SAMN15185320; GEO: GSM4602688
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="22"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185320	ID: 15185320
+
+21: NEG_020
+Identifiers: BioSample: SAMN15185319; GEO: GSM4602689
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="30"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185319	ID: 15185319
+
+22: NEG_021
+Identifiers: BioSample: SAMN15185318; GEO: GSM4602690
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="79"
+    /sex="male"
+    /sequencing_batch="S"
+Accession: SAMN15185318	ID: 15185318
+
+23: NEG_023
+Identifiers: BioSample: SAMN15185317; GEO: GSM4602692
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="63"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185317	ID: 15185317
+
+24: NEG_024
+Identifiers: BioSample: SAMN15185316; GEO: GSM4602693
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="74"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185316	ID: 15185316
+
+25: NEG_025
+Identifiers: BioSample: SAMN15185315; GEO: GSM4602694
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="38"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185315	ID: 15185315
+
+26: NEG_026
+Identifiers: BioSample: SAMN15185314; GEO: GSM4602695
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="45"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185314	ID: 15185314
+
+27: NEG_022
+Identifiers: BioSample: SAMN15185313; GEO: GSM4602691
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="22"
+    /sex="female"
+    /sequencing_batch="S"
+Accession: SAMN15185313	ID: 15185313
+
+28: NEG_027
+Identifiers: BioSample: SAMN15185312; GEO: GSM4602696
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="51"
+    /sex="male"
+    /sequencing_batch="T"
+Accession: SAMN15185312	ID: 15185312
+
+29: NEG_028
+Identifiers: BioSample: SAMN15185311; GEO: GSM4602697
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="55"
+    /sex="male"
+    /sequencing_batch="T"
+Accession: SAMN15185311	ID: 15185311
+
+30: NEG_030
+Identifiers: BioSample: SAMN15185310; GEO: GSM4602698
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="23"
+    /sex="female"
+    /sequencing_batch="T"
+Accession: SAMN15185310	ID: 15185310
+
+31: NEG_031
+Identifiers: BioSample: SAMN15185309; GEO: GSM4602699
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="52"
+    /sex="female"
+    /sequencing_batch="U"
+Accession: SAMN15185309	ID: 15185309
+
+32: NEG_032
+Identifiers: BioSample: SAMN15185308; GEO: GSM4602700
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="71"
+    /sex="female"
+    /sequencing_batch="U"
+Accession: SAMN15185308	ID: 15185308
+
+33: NEG_035
+Identifiers: BioSample: SAMN15185307; GEO: GSM4602701
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="66"
+    /sex="female"
+    /sequencing_batch="U"
+Accession: SAMN15185307	ID: 15185307
+
+34: NEG_036
+Identifiers: BioSample: SAMN15185306; GEO: GSM4602702
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="40"
+    /sex="female"
+    /sequencing_batch="U"
+Accession: SAMN15185306	ID: 15185306
+
+35: NEG_037
+Identifiers: BioSample: SAMN15185305; GEO: GSM4602703
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="22"
+    /sex="female"
+    /sequencing_batch="U"
+Accession: SAMN15185305	ID: 15185305
+
+36: NEG_038
+Identifiers: BioSample: SAMN15185304; GEO: GSM4602704
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="63"
+    /sex="female"
+    /sequencing_batch="U"
+Accession: SAMN15185304	ID: 15185304
+
+37: NEG_039
+Identifiers: BioSample: SAMN15185303; GEO: GSM4602705
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="66"
+    /sex="female"
+    /sequencing_batch="U"
+Accession: SAMN15185303	ID: 15185303
+
+38: NEG_040
+Identifiers: BioSample: SAMN15185302; GEO: GSM4602706
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="30"
+    /sex="male"
+    /sequencing_batch="U"
+Accession: SAMN15185302	ID: 15185302
+
+39: NEG_042
+Identifiers: BioSample: SAMN15185301; GEO: GSM4602707
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="55"
+    /sex="male"
+    /sequencing_batch="U"
+Accession: SAMN15185301	ID: 15185301
+
+40: POS_428
+Identifiers: BioSample: SAMN15185300; GEO: GSM4602661
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="T"
+Accession: SAMN15185300	ID: 15185300
+
+41: POS_433
+Identifiers: BioSample: SAMN15185264; GEO: GSM4602666
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="R"
+Accession: SAMN15185264	ID: 15185264
+
+42: POS_434
+Identifiers: BioSample: SAMN15185263; GEO: GSM4602667
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="R"
+Accession: SAMN15185263	ID: 15185263
+
+43: POS_435
+Identifiers: BioSample: SAMN15185262; GEO: GSM4602668
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="R"
+Accession: SAMN15185262	ID: 15185262
+
+44: POS_436
+Identifiers: BioSample: SAMN15185261; GEO: GSM4602669
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="R"
+Accession: SAMN15185261	ID: 15185261
+
+45: POS_437
+Identifiers: BioSample: SAMN15185260; GEO: GSM4602670
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="R"
+Accession: SAMN15185260	ID: 15185260
+
+46: POS_438
+Identifiers: BioSample: SAMN15185259; GEO: GSM4602671
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="R"
+Accession: SAMN15185259	ID: 15185259
+
+47: NEG_001
+Identifiers: BioSample: SAMN15185258; GEO: GSM4602672
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="26"
+    /sex="female"
+    /sequencing_batch="R"
+Accession: SAMN15185258	ID: 15185258
+
+48: NEG_002
+Identifiers: BioSample: SAMN15185257; GEO: GSM4602673
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="29"
+    /sex="female"
+    /sequencing_batch="R"
+Accession: SAMN15185257	ID: 15185257
+
+49: NEG_003
+Identifiers: BioSample: SAMN15185256; GEO: GSM4602674
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="47"
+    /sex="male"
+    /sequencing_batch="R"
+Accession: SAMN15185256	ID: 15185256
+
+50: NEG_004
+Identifiers: BioSample: SAMN15185255; GEO: GSM4602675
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="66"
+    /sex="male"
+    /sequencing_batch="R"
+Accession: SAMN15185255	ID: 15185255
+
+
+51: NEG_005
+Identifiers: BioSample: SAMN15185254; GEO: GSM4602676
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="51"
+    /sex="male"
+    /sequencing_batch="R"
+Accession: SAMN15185254	ID: 15185254
+
+52: NEG_006
+Identifiers: BioSample: SAMN15185253; GEO: GSM4602677
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="45"
+    /sex="male"
+    /sequencing_batch="R"
+Accession: SAMN15185253	ID: 15185253
+
+53: NEG_007
+Identifiers: BioSample: SAMN15185252; GEO: GSM4602678
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="13"
+    /sex="male"
+    /sequencing_batch="R"
+Accession: SAMN15185252	ID: 15185252
+
+54: NEG_008
+Identifiers: BioSample: SAMN15185251; GEO: GSM4602679
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="12"
+    /sex="male"
+    /sequencing_batch="R"
+Accession: SAMN15185251	ID: 15185251
+
+55: NEG_009
+Identifiers: BioSample: SAMN15185250; GEO: GSM4602680
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="35"
+    /sex="female"
+    /sequencing_batch="R"
+Accession: SAMN15185250	ID: 15185250
+
+56: NEG_010
+Identifiers: BioSample: SAMN15185249; GEO: GSM4602681
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="64"
+    /sex="male"
+    /sequencing_batch="R"
+Accession: SAMN15185249	ID: 15185249
+
+57: NEG_011
+Identifiers: BioSample: SAMN15185248; GEO: GSM4602682
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="23"
+    /sex="female"
+    /sequencing_batch="R"
+Accession: SAMN15185248	ID: 15185248
+
+58: NEG_012
+Identifiers: BioSample: SAMN15185247; GEO: GSM4602683
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="60"
+    /sex="male"
+    /sequencing_batch="R"
+Accession: SAMN15185247	ID: 15185247
+
+59: NEG_013
+Identifiers: BioSample: SAMN15185246; GEO: GSM4602684
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="76"
+    /sex="female"
+    /sequencing_batch="R"
+Accession: SAMN15185246	ID: 15185246
+
+60: NEG_014
+Identifiers: BioSample: SAMN15185245; GEO: GSM4602685
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="90+"
+    /sex="male"
+    /sequencing_batch="C"
+Accession: SAMN15185245	ID: 15185245
+
+61: NEG_016
+Identifiers: BioSample: SAMN15185244; GEO: GSM4602686
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="neg"
+    /n1_ct="N/A"
+    /age="29"
+    /sex="female"
+    /sequencing_batch="U"
+Accession: SAMN15185244	ID: 15185244
+
+62: POS_405
+Identifiers: BioSample: SAMN15185243; GEO: GSM4602638
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.02"
+    /age="54"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15185243	ID: 15185243
+
+63: POS_406
+Identifiers: BioSample: SAMN15185242; GEO: GSM4602639
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.81"
+    /age="50"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15185242	ID: 15185242
+
+64: POS_407
+Identifiers: BioSample: SAMN15185241; GEO: GSM4602640
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.9"
+    /age="37"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15185241	ID: 15185241
+
+65: POS_408
+Identifiers: BioSample: SAMN15185240; GEO: GSM4602641
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.58"
+    /age="38"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15185240	ID: 15185240
+
+66: POS_409
+Identifiers: BioSample: SAMN15185239; GEO: GSM4602642
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.09"
+    /age="45"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15185239	ID: 15185239
+
+67: POS_410
+Identifiers: BioSample: SAMN15185238; GEO: GSM4602643
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.5"
+    /age="78"
+    /sex="male"
+    /sequencing_batch="M"
+Accession: SAMN15185238	ID: 15185238
+
+68: POS_411
+Identifiers: BioSample: SAMN15185237; GEO: GSM4602644
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.8405"
+    /age="78"
+    /sex="male"
+    /sequencing_batch="G"
+Accession: SAMN15185237	ID: 15185237
+
+69: POS_412
+Identifiers: BioSample: SAMN15185236; GEO: GSM4602645
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.11"
+    /age="65"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15185236	ID: 15185236
+
+70: POS_413
+Identifiers: BioSample: SAMN15185235; GEO: GSM4602646
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="26.32"
+    /age="42"
+    /sex="female"
+    /sequencing_batch="N"
+Accession: SAMN15185235	ID: 15185235
+
+71: POS_414
+Identifiers: BioSample: SAMN15185234; GEO: GSM4602647
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.44"
+    /age="35"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15185234	ID: 15185234
+
+72: POS_415
+Identifiers: BioSample: SAMN15185233; GEO: GSM4602648
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.41"
+    /age="35"
+    /sex="male"
+    /sequencing_batch="M"
+Accession: SAMN15185233	ID: 15185233
+
+73: POS_416
+Identifiers: BioSample: SAMN15185232; GEO: GSM4602649
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.88"
+    /age="39"
+    /sex="female"
+    /sequencing_batch="M"
+Accession: SAMN15185232	ID: 15185232
+
+74: POS_417
+Identifiers: BioSample: SAMN15185231; GEO: GSM4602650
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.18"
+    /age="48"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185231	ID: 15185231
+
+75: POS_418
+Identifiers: BioSample: SAMN15185230; GEO: GSM4602651
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.43"
+    /age="42"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185230	ID: 15185230
+
+76: POS_419
+Identifiers: BioSample: SAMN15185229; GEO: GSM4602652
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.99"
+    /age="53"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185229	ID: 15185229
+
+77: POS_420
+Identifiers: BioSample: SAMN15185228; GEO: GSM4602653
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.56"
+    /age="61"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185228	ID: 15185228
+
+78: POS_421
+Identifiers: BioSample: SAMN15185227; GEO: GSM4602654
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.58"
+    /age="51"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185227	ID: 15185227
+
+79: POS_422
+Identifiers: BioSample: SAMN15185226; GEO: GSM4602655
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="T"
+Accession: SAMN15185226	ID: 15185226
+
+80: POS_423
+Identifiers: BioSample: SAMN15185225; GEO: GSM4602656
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="T"
+Accession: SAMN15185225	ID: 15185225
+
+81: POS_424
+Identifiers: BioSample: SAMN15185224; GEO: GSM4602657
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="T"
+Accession: SAMN15185224	ID: 15185224
+
+82: POS_425
+Identifiers: BioSample: SAMN15185223; GEO: GSM4602658
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="T"
+Accession: SAMN15185223	ID: 15185223
+
+83: POS_426
+Identifiers: BioSample: SAMN15185222; GEO: GSM4602659
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="T"
+Accession: SAMN15185222	ID: 15185222
+
+84: POS_429
+Identifiers: BioSample: SAMN15185221; GEO: GSM4602662
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="T"
+Accession: SAMN15185221	ID: 15185221
+
+85: POS_430
+Identifiers: BioSample: SAMN15185220; GEO: GSM4602663
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="R"
+Accession: SAMN15185220	ID: 15185220
+
+86: POS_431
+Identifiers: BioSample: SAMN15185219; GEO: GSM4602664
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="R"
+Accession: SAMN15185219	ID: 15185219
+
+87: POS_432
+Identifiers: BioSample: SAMN15185218; GEO: GSM4602665
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="R"
+Accession: SAMN15185218	ID: 15185218
+
+88: POS_427
+Identifiers: BioSample: SAMN15185217; GEO: GSM4602660
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="Unknown"
+    /age="Unknown"
+    /sex="not collected"
+    /sequencing_batch="T"
+Accession: SAMN15185217	ID: 15185217
+
+89: POS_381
+Identifiers: BioSample: SAMN15185216; GEO: GSM4602613
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.39"
+    /age="78"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15185216	ID: 15185216
+
+90: POS_382
+Identifiers: BioSample: SAMN15185215; GEO: GSM4602614
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.11"
+    /age="77"
+    /sex="male"
+    /sequencing_batch="K"
+Accession: SAMN15185215	ID: 15185215
+
+91: POS_383
+Identifiers: BioSample: SAMN15185214; GEO: GSM4602615
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.86"
+    /age="59"
+    /sex="male"
+    /sequencing_batch="K"
+Accession: SAMN15185214	ID: 15185214
+
+92: POS_384
+Identifiers: BioSample: SAMN15185213; GEO: GSM4602616
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.9203"
+    /age="47"
+    /sex="male"
+    /sequencing_batch="G"
+Accession: SAMN15185213	ID: 15185213
+
+93: POS_385
+Identifiers: BioSample: SAMN15185212; GEO: GSM4602617
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.73"
+    /age="58"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15185212	ID: 15185212
+
+94: POS_386
+Identifiers: BioSample: SAMN15185211; GEO: GSM4602618
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.33"
+    /age="63"
+    /sex="male"
+    /sequencing_batch="J"
+Accession: SAMN15185211	ID: 15185211
+
+95: POS_391
+Identifiers: BioSample: SAMN15185210; GEO: GSM4602623
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.197"
+    /age="54"
+    /sex="female"
+    /sequencing_batch="G"
+Accession: SAMN15185210	ID: 15185210
+
+96: POS_392
+Identifiers: BioSample: SAMN15185209; GEO: GSM4602624
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.8747"
+    /age="41"
+    /sex="female"
+    /sequencing_batch="G"
+Accession: SAMN15185209	ID: 15185209
+
+97: POS_393
+Identifiers: BioSample: SAMN15185208; GEO: GSM4602625
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.19"
+    /age="33"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15185208	ID: 15185208
+
+98: POS_394
+Identifiers: BioSample: SAMN15185207; GEO: GSM4602626
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.34"
+    /age="2"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15185207	ID: 15185207
+
+99: POS_395
+Identifiers: BioSample: SAMN15185206; GEO: GSM4602627
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.09"
+    /age="37"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15185206	ID: 15185206
+
+100: POS_396
+Identifiers: BioSample: SAMN15185205; GEO: GSM4602628
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.47"
+    /age="72"
+    /sex="male"
+    /sequencing_batch="J"
+Accession: SAMN15185205	ID: 15185205
+
+
+101: POS_397
+Identifiers: BioSample: SAMN15185204; GEO: GSM4602629
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.81"
+    /age="48"
+    /sex="female"
+    /sequencing_batch="K"
+Accession: SAMN15185204	ID: 15185204
+
+102: POS_399
+Identifiers: BioSample: SAMN15185203; GEO: GSM4602631
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.43"
+    /age="58"
+    /sex="female"
+    /sequencing_batch="K"
+Accession: SAMN15185203	ID: 15185203
+
+103: POS_400
+Identifiers: BioSample: SAMN15185202; GEO: GSM4602632
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.46"
+    /age="82"
+    /sex="not collected"
+    /sequencing_batch="M"
+Accession: SAMN15185202	ID: 15185202
+
+104: POS_401
+Identifiers: BioSample: SAMN15185201; GEO: GSM4602634
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.46"
+    /age="78"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15185201	ID: 15185201
+
+105: POS_402
+Identifiers: BioSample: SAMN15185200; GEO: GSM4602635
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.5"
+    /age="81"
+    /sex="male"
+    /sequencing_batch="M"
+Accession: SAMN15185200	ID: 15185200
+
+106: POS_403
+Identifiers: BioSample: SAMN15185199; GEO: GSM4602636
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.46"
+    /age="57"
+    /sex="female"
+    /sequencing_batch="M"
+Accession: SAMN15185199	ID: 15185199
+
+107: POS_398
+Identifiers: BioSample: SAMN15185198; GEO: GSM4602630
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.98"
+    /age="75"
+    /sex="female"
+    /sequencing_batch="M"
+Accession: SAMN15185198	ID: 15185198
+
+108: POS_404
+Identifiers: BioSample: SAMN15185197; GEO: GSM4602637
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.19"
+    /age="74"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15185197	ID: 15185197
+
+109: POS_357
+Identifiers: BioSample: SAMN15185196; GEO: GSM4602589
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.13"
+    /age="74"
+    /sex="male"
+    /sequencing_batch="A"
+Accession: SAMN15185196	ID: 15185196
+
+110: POS_358
+Identifiers: BioSample: SAMN15185195; GEO: GSM4602590
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.28"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="A"
+Accession: SAMN15185195	ID: 15185195
+
+111: POS_359
+Identifiers: BioSample: SAMN15185194; GEO: GSM4602591
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.46"
+    /age="81"
+    /sex="female"
+    /sequencing_batch="A"
+Accession: SAMN15185194	ID: 15185194
+
+112: POS_360
+Identifiers: BioSample: SAMN15185193; GEO: GSM4602592
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="29.13"
+    /age="86"
+    /sex="male"
+    /sequencing_batch="A"
+Accession: SAMN15185193	ID: 15185193
+
+113: POS_361
+Identifiers: BioSample: SAMN15185192; GEO: GSM4602593
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="28.04"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="A"
+Accession: SAMN15185192	ID: 15185192
+
+114: POS_362
+Identifiers: BioSample: SAMN15185191; GEO: GSM4602594
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.43"
+    /age="82"
+    /sex="male"
+    /sequencing_batch="A"
+Accession: SAMN15185191	ID: 15185191
+
+115: POS_363
+Identifiers: BioSample: SAMN15185190; GEO: GSM4602595
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.08"
+    /age="90+"
+    /sex="male"
+    /sequencing_batch="A"
+Accession: SAMN15185190	ID: 15185190
+
+116: POS_364
+Identifiers: BioSample: SAMN15185189; GEO: GSM4602596
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.03"
+    /age="85"
+    /sex="female"
+    /sequencing_batch="A"
+Accession: SAMN15185189	ID: 15185189
+
+117: POS_365
+Identifiers: BioSample: SAMN15185188; GEO: GSM4602597
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="26.94"
+    /age="70"
+    /sex="female"
+    /sequencing_batch="A"
+Accession: SAMN15185188	ID: 15185188
+
+118: POS_366
+Identifiers: BioSample: SAMN15185187; GEO: GSM4602598
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="30.54"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="A"
+Accession: SAMN15185187	ID: 15185187
+
+119: POS_367
+Identifiers: BioSample: SAMN15185186; GEO: GSM4602599
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="27.3"
+    /age="85"
+    /sex="female"
+    /sequencing_batch="A"
+Accession: SAMN15185186	ID: 15185186
+
+120: POS_368
+Identifiers: BioSample: SAMN15185185; GEO: GSM4602600
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="27.47"
+    /age="54"
+    /sex="male"
+    /sequencing_batch="A"
+Accession: SAMN15185185	ID: 15185185
+
+121: POS_369
+Identifiers: BioSample: SAMN15185184; GEO: GSM4602601
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="28.43"
+    /age="58"
+    /sex="male"
+    /sequencing_batch="A"
+Accession: SAMN15185184	ID: 15185184
+
+122: POS_370
+Identifiers: BioSample: SAMN15185183; GEO: GSM4602602
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="27.95"
+    /age="62"
+    /sex="not collected"
+    /sequencing_batch="A"
+Accession: SAMN15185183	ID: 15185183
+
+123: POS_371
+Identifiers: BioSample: SAMN15185182; GEO: GSM4602603
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.43"
+    /age="78"
+    /sex="male"
+    /sequencing_batch="A"
+Accession: SAMN15185182	ID: 15185182
+
+124: POS_372
+Identifiers: BioSample: SAMN15185181; GEO: GSM4602604
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.57"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15185181	ID: 15185181
+
+125: POS_373
+Identifiers: BioSample: SAMN15185180; GEO: GSM4602605
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.6408"
+    /age="39"
+    /sex="male"
+    /sequencing_batch="G"
+Accession: SAMN15185180	ID: 15185180
+
+126: POS_374
+Identifiers: BioSample: SAMN15185179; GEO: GSM4602606
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="13.1299"
+    /age="45"
+    /sex="not collected"
+    /sequencing_batch="J"
+Accession: SAMN15185179	ID: 15185179
+
+127: POS_375
+Identifiers: BioSample: SAMN15185178; GEO: GSM4602607
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.2351"
+    /age="57"
+    /sex="not collected"
+    /sequencing_batch="J"
+Accession: SAMN15185178	ID: 15185178
+
+128: POS_376
+Identifiers: BioSample: SAMN15185177; GEO: GSM4602608
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.57"
+    /age="28"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15185177	ID: 15185177
+
+129: POS_377
+Identifiers: BioSample: SAMN15185176; GEO: GSM4602609
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.82"
+    /age="85"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15185176	ID: 15185176
+
+130: POS_378
+Identifiers: BioSample: SAMN15185175; GEO: GSM4602610
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.69"
+    /age="90+"
+    /sex="male"
+    /sequencing_batch="M"
+Accession: SAMN15185175	ID: 15185175
+
+131: POS_379
+Identifiers: BioSample: SAMN15185174; GEO: GSM4602611
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17"
+    /age="49"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15185174	ID: 15185174
+
+132: POS_380
+Identifiers: BioSample: SAMN15185173; GEO: GSM4602612
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.6"
+    /age="55"
+    /sex="male"
+    /sequencing_batch="H"
+Accession: SAMN15185173	ID: 15185173
+
+133: POS_335
+Identifiers: BioSample: SAMN15185172; GEO: GSM4602567
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.68"
+    /age="39"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15185172	ID: 15185172
+
+134: POS_336
+Identifiers: BioSample: SAMN15185171; GEO: GSM4602568
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.39"
+    /age="50"
+    /sex="male"
+    /sequencing_batch="O"
+Accession: SAMN15185171	ID: 15185171
+
+135: POS_337
+Identifiers: BioSample: SAMN15185170; GEO: GSM4602569
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.64"
+    /age="63"
+    /sex="male"
+    /sequencing_batch="O"
+Accession: SAMN15185170	ID: 15185170
+
+136: POS_338
+Identifiers: BioSample: SAMN15185169; GEO: GSM4602570
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.28"
+    /age="64"
+    /sex="not collected"
+    /sequencing_batch="P"
+Accession: SAMN15185169	ID: 15185169
+
+137: POS_339
+Identifiers: BioSample: SAMN15185168; GEO: GSM4602571
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.46"
+    /age="22"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185168	ID: 15185168
+
+138: POS_340
+Identifiers: BioSample: SAMN15185167; GEO: GSM4602572
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.13"
+    /age="71"
+    /sex="not collected"
+    /sequencing_batch="P"
+Accession: SAMN15185167	ID: 15185167
+
+139: POS_341
+Identifiers: BioSample: SAMN15185166; GEO: GSM4602573
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.73"
+    /age="80"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185166	ID: 15185166
+
+140: POS_342
+Identifiers: BioSample: SAMN15185165; GEO: GSM4602574
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.4"
+    /age="32"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15185165	ID: 15185165
+
+141: POS_343
+Identifiers: BioSample: SAMN15185164; GEO: GSM4602575
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.08"
+    /age="85"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185164	ID: 15185164
+
+142: POS_344
+Identifiers: BioSample: SAMN15185163; GEO: GSM4602576
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.38"
+    /age="56"
+    /sex="not collected"
+    /sequencing_batch="P"
+Accession: SAMN15185163	ID: 15185163
+
+143: POS_345
+Identifiers: BioSample: SAMN15185162; GEO: GSM4602577
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.65"
+    /age="71"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15185162	ID: 15185162
+
+144: POS_346
+Identifiers: BioSample: SAMN15185161; GEO: GSM4602578
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.25"
+    /age="61"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185161	ID: 15185161
+
+145: POS_347
+Identifiers: BioSample: SAMN15185160; GEO: GSM4602579
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.89"
+    /age="50"
+    /sex="not collected"
+    /sequencing_batch="O"
+Accession: SAMN15185160	ID: 15185160
+
+146: POS_348
+Identifiers: BioSample: SAMN15185159; GEO: GSM4602580
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.61"
+    /age="28"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15185159	ID: 15185159
+
+147: POS_349
+Identifiers: BioSample: SAMN15185158; GEO: GSM4602581
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.59"
+    /age="40"
+    /sex="male"
+    /sequencing_batch="O"
+Accession: SAMN15185158	ID: 15185158
+
+148: POS_350
+Identifiers: BioSample: SAMN15185157; GEO: GSM4602582
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.93"
+    /age="84"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15185157	ID: 15185157
+
+149: POS_351
+Identifiers: BioSample: SAMN15185153; GEO: GSM4602583
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.53"
+    /age="24"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15185153	ID: 15185153
+
+150: POS_352
+Identifiers: BioSample: SAMN15185152; GEO: GSM4602584
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="13.7"
+    /age="60"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15185152	ID: 15185152
+
+
+151: POS_353
+Identifiers: BioSample: SAMN15185151; GEO: GSM4602585
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="29.44"
+    /age="28"
+    /sex="male"
+    /sequencing_batch="A"
+Accession: SAMN15185151	ID: 15185151
+
+152: POS_354
+Identifiers: BioSample: SAMN15185150; GEO: GSM4602586
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="27.61"
+    /age="22"
+    /sex="female"
+    /sequencing_batch="A"
+Accession: SAMN15185150	ID: 15185150
+
+153: POS_355
+Identifiers: BioSample: SAMN15185149; GEO: GSM4602587
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.28"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="A"
+Accession: SAMN15185149	ID: 15185149
+
+154: POS_356
+Identifiers: BioSample: SAMN15185148; GEO: GSM4602588
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.8"
+    /age="71"
+    /sex="female"
+    /sequencing_batch="A"
+Accession: SAMN15185148	ID: 15185148
+
+155: POS_315
+Identifiers: BioSample: SAMN15185147; GEO: GSM4602547
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.87"
+    /age="89"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185147	ID: 15185147
+
+156: POS_316
+Identifiers: BioSample: SAMN15185146; GEO: GSM4602548
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.48"
+    /age="52"
+    /sex="female"
+    /sequencing_batch="F"
+Accession: SAMN15185146	ID: 15185146
+
+157: POS_317
+Identifiers: BioSample: SAMN15185145; GEO: GSM4602549
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.35"
+    /age="71"
+    /sex="male"
+    /sequencing_batch="F"
+Accession: SAMN15185145	ID: 15185145
+
+158: POS_318
+Identifiers: BioSample: SAMN15185144; GEO: GSM4602550
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.01"
+    /age="48"
+    /sex="not collected"
+    /sequencing_batch="E"
+Accession: SAMN15185144	ID: 15185144
+
+159: POS_319
+Identifiers: BioSample: SAMN15185143; GEO: GSM4602551
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.8"
+    /age="66"
+    /sex="not collected"
+    /sequencing_batch="F"
+Accession: SAMN15185143	ID: 15185143
+
+160: POS_320
+Identifiers: BioSample: SAMN15185142; GEO: GSM4602552
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="26.11"
+    /age="65"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185142	ID: 15185142
+
+161: POS_321
+Identifiers: BioSample: SAMN15185141; GEO: GSM4602553
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.64"
+    /age="87"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185141	ID: 15185141
+
+162: POS_322
+Identifiers: BioSample: SAMN15185140; GEO: GSM4602554
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.52"
+    /age="78"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185140	ID: 15185140
+
+163: POS_323
+Identifiers: BioSample: SAMN15185139; GEO: GSM4602555
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.02"
+    /age="90+"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185139	ID: 15185139
+
+164: POS_324
+Identifiers: BioSample: SAMN15185138; GEO: GSM4602556
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.82"
+    /age="39"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185138	ID: 15185138
+
+165: POS_325
+Identifiers: BioSample: SAMN15185137; GEO: GSM4602557
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.41"
+    /age="38"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185137	ID: 15185137
+
+166: POS_326
+Identifiers: BioSample: SAMN15185136; GEO: GSM4602558
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.62"
+    /age="58"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185136	ID: 15185136
+
+167: POS_327
+Identifiers: BioSample: SAMN15185135; GEO: GSM4602559
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.81"
+    /age="56"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185135	ID: 15185135
+
+168: POS_328
+Identifiers: BioSample: SAMN15185134; GEO: GSM4602560
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.58"
+    /age="85"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185134	ID: 15185134
+
+169: POS_329
+Identifiers: BioSample: SAMN15185133; GEO: GSM4602561
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.36"
+    /age="47"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185133	ID: 15185133
+
+170: POS_330
+Identifiers: BioSample: SAMN15185132; GEO: GSM4602562
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.19"
+    /age="51"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185132	ID: 15185132
+
+171: POS_331
+Identifiers: BioSample: SAMN15185131; GEO: GSM4602563
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.39"
+    /age="58"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185131	ID: 15185131
+
+172: POS_332
+Identifiers: BioSample: SAMN15185130; GEO: GSM4602564
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.51"
+    /age="42"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185130	ID: 15185130
+
+173: POS_333
+Identifiers: BioSample: SAMN15185129; GEO: GSM4602565
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.24"
+    /age="78"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185129	ID: 15185129
+
+174: POS_334
+Identifiers: BioSample: SAMN15185128; GEO: GSM4602566
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.44"
+    /age="56"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185128	ID: 15185128
+
+175: POS_293
+Identifiers: BioSample: SAMN15185127; GEO: GSM4602526
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.8"
+    /age="58"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185127	ID: 15185127
+
+176: POS_295
+Identifiers: BioSample: SAMN15185126; GEO: GSM4602527
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.34"
+    /age="72"
+    /sex="not collected"
+    /sequencing_batch="D"
+Accession: SAMN15185126	ID: 15185126
+
+177: POS_296
+Identifiers: BioSample: SAMN15185125; GEO: GSM4602528
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.02"
+    /age="71"
+    /sex="not collected"
+    /sequencing_batch="D"
+Accession: SAMN15185125	ID: 15185125
+
+178: POS_297
+Identifiers: BioSample: SAMN15185124; GEO: GSM4602529
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.85"
+    /age="36"
+    /sex="not collected"
+    /sequencing_batch="D"
+Accession: SAMN15185124	ID: 15185124
+
+179: POS_298
+Identifiers: BioSample: SAMN15185123; GEO: GSM4602530
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.73"
+    /age="49"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185123	ID: 15185123
+
+180: POS_299
+Identifiers: BioSample: SAMN15185122; GEO: GSM4602531
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.19"
+    /age="76"
+    /sex="female"
+    /sequencing_batch="E"
+Accession: SAMN15185122	ID: 15185122
+
+181: POS_300
+Identifiers: BioSample: SAMN15185121; GEO: GSM4602532
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.27"
+    /age="70"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185121	ID: 15185121
+
+182: POS_301
+Identifiers: BioSample: SAMN15185120; GEO: GSM4602533
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.6"
+    /age="28"
+    /sex="female"
+    /sequencing_batch="E"
+Accession: SAMN15185120	ID: 15185120
+
+183: POS_302
+Identifiers: BioSample: SAMN15185119; GEO: GSM4602534
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.92"
+    /age="32"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185119	ID: 15185119
+
+184: POS_303
+Identifiers: BioSample: SAMN15185118; GEO: GSM4602535
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.292"
+    /age="84"
+    /sex="female"
+    /sequencing_batch="E"
+Accession: SAMN15185118	ID: 15185118
+
+185: POS_304
+Identifiers: BioSample: SAMN15185117; GEO: GSM4602536
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.15"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="E"
+Accession: SAMN15185117	ID: 15185117
+
+186: POS_305
+Identifiers: BioSample: SAMN15185116; GEO: GSM4602537
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.77"
+    /age="25"
+    /sex="female"
+    /sequencing_batch="E"
+Accession: SAMN15185116	ID: 15185116
+
+187: POS_306
+Identifiers: BioSample: SAMN15185115; GEO: GSM4602538
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.53"
+    /age="70"
+    /sex="female"
+    /sequencing_batch="E"
+Accession: SAMN15185115	ID: 15185115
+
+188: POS_307
+Identifiers: BioSample: SAMN15185114; GEO: GSM4602539
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.56"
+    /age="24"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185114	ID: 15185114
+
+189: POS_308
+Identifiers: BioSample: SAMN15185113; GEO: GSM4602540
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.72"
+    /age="48"
+    /sex="female"
+    /sequencing_batch="F"
+Accession: SAMN15185113	ID: 15185113
+
+190: POS_309
+Identifiers: BioSample: SAMN15185112; GEO: GSM4602541
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.29"
+    /age="28"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185112	ID: 15185112
+
+191: POS_310
+Identifiers: BioSample: SAMN15185111; GEO: GSM4602542
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.49"
+    /age="40"
+    /sex="male"
+    /sequencing_batch="F"
+Accession: SAMN15185111	ID: 15185111
+
+192: POS_311
+Identifiers: BioSample: SAMN15185110; GEO: GSM4602543
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.37"
+    /age="70"
+    /sex="male"
+    /sequencing_batch="F"
+Accession: SAMN15185110	ID: 15185110
+
+193: POS_312
+Identifiers: BioSample: SAMN15185109; GEO: GSM4602544
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.99"
+    /age="58"
+    /sex="female"
+    /sequencing_batch="E"
+Accession: SAMN15185109	ID: 15185109
+
+194: POS_313
+Identifiers: BioSample: SAMN15185108; GEO: GSM4602545
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.92"
+    /age="70"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185108	ID: 15185108
+
+195: POS_314
+Identifiers: BioSample: SAMN15185107; GEO: GSM4602546
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.15"
+    /age="89"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185107	ID: 15185107
+
+196: POS_273
+Identifiers: BioSample: SAMN15185106; GEO: GSM4602506
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.12"
+    /age="45"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185106	ID: 15185106
+
+197: POS_274
+Identifiers: BioSample: SAMN15185105; GEO: GSM4602507
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="26.78"
+    /age="39"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185105	ID: 15185105
+
+198: POS_275
+Identifiers: BioSample: SAMN15185104; GEO: GSM4602508
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.41"
+    /age="30"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185104	ID: 15185104
+
+199: POS_276
+Identifiers: BioSample: SAMN15185103; GEO: GSM4602509
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.65"
+    /age="64"
+    /sex="male"
+    /sequencing_batch="N"
+Accession: SAMN15185103	ID: 15185103
+
+200: POS_277
+Identifiers: BioSample: SAMN15185102; GEO: GSM4602510
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.79"
+    /age="57"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185102	ID: 15185102
+
+
+201: POS_278
+Identifiers: BioSample: SAMN15185101; GEO: GSM4602511
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.29"
+    /age="53"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185101	ID: 15185101
+
+202: POS_279
+Identifiers: BioSample: SAMN15185100; GEO: GSM4602512
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.26"
+    /age="57"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185100	ID: 15185100
+
+203: POS_280
+Identifiers: BioSample: SAMN15185099; GEO: GSM4602513
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.11"
+    /age="72"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185099	ID: 15185099
+
+204: POS_281
+Identifiers: BioSample: SAMN15185098; GEO: GSM4602514
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.1"
+    /age="23"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185098	ID: 15185098
+
+205: POS_282
+Identifiers: BioSample: SAMN15185097; GEO: GSM4602515
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.87"
+    /age="88"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185097	ID: 15185097
+
+206: POS_283
+Identifiers: BioSample: SAMN15185096; GEO: GSM4602516
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.23"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185096	ID: 15185096
+
+207: POS_284
+Identifiers: BioSample: SAMN15185095; GEO: GSM4602517
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.47"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185095	ID: 15185095
+
+208: POS_285
+Identifiers: BioSample: SAMN15185094; GEO: GSM4602518
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.55"
+    /age="60"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185094	ID: 15185094
+
+209: POS_286
+Identifiers: BioSample: SAMN15185093; GEO: GSM4602519
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.31"
+    /age="40"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185093	ID: 15185093
+
+210: POS_287
+Identifiers: BioSample: SAMN15185092; GEO: GSM4602520
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.91"
+    /age="90+"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185092	ID: 15185092
+
+211: POS_288
+Identifiers: BioSample: SAMN15185091; GEO: GSM4602521
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.74"
+    /age="80"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185091	ID: 15185091
+
+212: POS_289
+Identifiers: BioSample: SAMN15185090; GEO: GSM4602522
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.82"
+    /age="19"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15185090	ID: 15185090
+
+213: POS_290
+Identifiers: BioSample: SAMN15185089; GEO: GSM4602523
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.24"
+    /age="77"
+    /sex="female"
+    /sequencing_batch="D"
+Accession: SAMN15185089	ID: 15185089
+
+214: POS_291
+Identifiers: BioSample: SAMN15185088; GEO: GSM4602524
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.14"
+    /age="76"
+    /sex="female"
+    /sequencing_batch="D"
+Accession: SAMN15185088	ID: 15185088
+
+215: POS_292
+Identifiers: BioSample: SAMN15185087; GEO: GSM4602525
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.7"
+    /age="53"
+    /sex="male"
+    /sequencing_batch="D"
+Accession: SAMN15185087	ID: 15185087
+
+216: POS_252
+Identifiers: BioSample: SAMN15185086; GEO: GSM4602485
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.37"
+    /age="58"
+    /sex="not collected"
+    /sequencing_batch="C"
+Accession: SAMN15185086	ID: 15185086
+
+217: POS_253
+Identifiers: BioSample: SAMN15185085; GEO: GSM4602486
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.96"
+    /age="37"
+    /sex="female"
+    /sequencing_batch="D"
+Accession: SAMN15185085	ID: 15185085
+
+218: POS_254
+Identifiers: BioSample: SAMN15185084; GEO: GSM4602487
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.57"
+    /age="37"
+    /sex="female"
+    /sequencing_batch="E"
+Accession: SAMN15185084	ID: 15185084
+
+219: POS_255
+Identifiers: BioSample: SAMN15185083; GEO: GSM4602488
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.37"
+    /age="56"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15185083	ID: 15185083
+
+220: POS_256
+Identifiers: BioSample: SAMN15185082; GEO: GSM4602489
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.18"
+    /age="79"
+    /sex="female"
+    /sequencing_batch="E"
+Accession: SAMN15185082	ID: 15185082
+
+221: POS_257
+Identifiers: BioSample: SAMN15185081; GEO: GSM4602490
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.06"
+    /age="49"
+    /sex="female"
+    /sequencing_batch="N"
+Accession: SAMN15185081	ID: 15185081
+
+222: POS_258
+Identifiers: BioSample: SAMN15185080; GEO: GSM4602491
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.8"
+    /age="63"
+    /sex="female"
+    /sequencing_batch="N"
+Accession: SAMN15185080	ID: 15185080
+
+223: POS_259
+Identifiers: BioSample: SAMN15185079; GEO: GSM4602492
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.75"
+    /age="58"
+    /sex="male"
+    /sequencing_batch="N"
+Accession: SAMN15185079	ID: 15185079
+
+224: POS_260
+Identifiers: BioSample: SAMN15185078; GEO: GSM4602493
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.91"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="N"
+Accession: SAMN15185078	ID: 15185078
+
+225: POS_261
+Identifiers: BioSample: SAMN15185077; GEO: GSM4602494
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.87"
+    /age="79"
+    /sex="female"
+    /sequencing_batch="N"
+Accession: SAMN15185077	ID: 15185077
+
+226: POS_262
+Identifiers: BioSample: SAMN15185076; GEO: GSM4602495
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.66"
+    /age="70"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15185076	ID: 15185076
+
+227: POS_263
+Identifiers: BioSample: SAMN15185075; GEO: GSM4602496
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.17"
+    /age="35"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185075	ID: 15185075
+
+228: POS_264
+Identifiers: BioSample: SAMN15185074; GEO: GSM4602497
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="26.2"
+    /age="62"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185074	ID: 15185074
+
+229: POS_265
+Identifiers: BioSample: SAMN15185073; GEO: GSM4602498
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.14"
+    /age="57"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185073	ID: 15185073
+
+230: POS_266
+Identifiers: BioSample: SAMN15185072; GEO: GSM4602499
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.7"
+    /age="36"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185072	ID: 15185072
+
+231: POS_267
+Identifiers: BioSample: SAMN15185071; GEO: GSM4602500
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="27.86"
+    /age="41"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185071	ID: 15185071
+
+232: POS_268
+Identifiers: BioSample: SAMN15185070; GEO: GSM4602501
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.13"
+    /age="63"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15185070	ID: 15185070
+
+233: POS_269
+Identifiers: BioSample: SAMN15185069; GEO: GSM4602502
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.72"
+    /age="61"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185069	ID: 15185069
+
+234: POS_270
+Identifiers: BioSample: SAMN15185068; GEO: GSM4602503
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.27"
+    /age="35"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185068	ID: 15185068
+
+235: POS_271
+Identifiers: BioSample: SAMN15185067; GEO: GSM4602504
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24"
+    /age="57"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15185067	ID: 15185067
+
+236: POS_272
+Identifiers: BioSample: SAMN15185066; GEO: GSM4602505
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.86"
+    /age="52"
+    /sex="not collected"
+    /sequencing_batch="P"
+Accession: SAMN15185066	ID: 15185066
+
+237: POS_229
+Identifiers: BioSample: SAMN15185065; GEO: GSM4602464
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.27"
+    /age="21"
+    /sex="female"
+    /sequencing_batch="B"
+Accession: SAMN15185065	ID: 15185065
+
+238: POS_230
+Identifiers: BioSample: SAMN15185064; GEO: GSM4602465
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="27.68"
+    /age="71"
+    /sex="male"
+    /sequencing_batch="B"
+Accession: SAMN15185064	ID: 15185064
+
+239: POS_231
+Identifiers: BioSample: SAMN15185063; GEO: GSM4602466
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="29.69"
+    /age="82"
+    /sex="not collected"
+    /sequencing_batch="C"
+Accession: SAMN15185063	ID: 15185063
+
+240: POS_232
+Identifiers: BioSample: SAMN15185062; GEO: GSM4602467
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.25"
+    /age="41"
+    /sex="male"
+    /sequencing_batch="C"
+Accession: SAMN15185062	ID: 15185062
+
+241: POS_233
+Identifiers: BioSample: SAMN15185061; GEO: GSM4602468
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.18"
+    /age="35"
+    /sex="male"
+    /sequencing_batch="C"
+Accession: SAMN15185061	ID: 15185061
+
+242: POS_234
+Identifiers: BioSample: SAMN15185060; GEO: GSM4602469
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.27"
+    /age="58"
+    /sex="female"
+    /sequencing_batch="C"
+Accession: SAMN15185060	ID: 15185060
+
+243: POS_236
+Identifiers: BioSample: SAMN15185059; GEO: GSM4602470
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.22"
+    /age="75"
+    /sex="male"
+    /sequencing_batch="C"
+Accession: SAMN15185059	ID: 15185059
+
+244: POS_237
+Identifiers: BioSample: SAMN15185058; GEO: GSM4602471
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.77"
+    /age="77"
+    /sex="not collected"
+    /sequencing_batch="C"
+Accession: SAMN15185058	ID: 15185058
+
+245: POS_238
+Identifiers: BioSample: SAMN15185057; GEO: GSM4602472
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.43"
+    /age="53"
+    /sex="male"
+    /sequencing_batch="C"
+Accession: SAMN15185057	ID: 15185057
+
+246: POS_239
+Identifiers: BioSample: SAMN15185056; GEO: GSM4602473
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.26"
+    /age="70"
+    /sex="female"
+    /sequencing_batch="C"
+Accession: SAMN15185056	ID: 15185056
+
+247: POS_240
+Identifiers: BioSample: SAMN15185055; GEO: GSM4602474
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.71"
+    /age="41"
+    /sex="male"
+    /sequencing_batch="C"
+Accession: SAMN15185055	ID: 15185055
+
+248: POS_241
+Identifiers: BioSample: SAMN15185054; GEO: GSM4602475
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.49"
+    /age="59"
+    /sex="male"
+    /sequencing_batch="D"
+Accession: SAMN15185054	ID: 15185054
+
+249: POS_247
+Identifiers: BioSample: SAMN15185053; GEO: GSM4602481
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.68"
+    /age="71"
+    /sex="female"
+    /sequencing_batch="D"
+Accession: SAMN15185053	ID: 15185053
+
+250: POS_242
+Identifiers: BioSample: SAMN15185052; GEO: GSM4602476
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.66"
+    /age="43"
+    /sex="female"
+    /sequencing_batch="C"
+Accession: SAMN15185052	ID: 15185052
+
+
+251: POS_243
+Identifiers: BioSample: SAMN15185051; GEO: GSM4602477
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.35"
+    /age="22"
+    /sex="male"
+    /sequencing_batch="D"
+Accession: SAMN15185051	ID: 15185051
+
+252: POS_244
+Identifiers: BioSample: SAMN15185050; GEO: GSM4602478
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22"
+    /age="55"
+    /sex="male"
+    /sequencing_batch="D"
+Accession: SAMN15185050	ID: 15185050
+
+253: POS_245
+Identifiers: BioSample: SAMN15185049; GEO: GSM4602479
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.96"
+    /age="67"
+    /sex="female"
+    /sequencing_batch="C"
+Accession: SAMN15185049	ID: 15185049
+
+254: POS_246
+Identifiers: BioSample: SAMN15185048; GEO: GSM4602480
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="26.91"
+    /age="57"
+    /sex="female"
+    /sequencing_batch="D"
+Accession: SAMN15185048	ID: 15185048
+
+255: POS_249
+Identifiers: BioSample: SAMN15185047; GEO: GSM4602482
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.17"
+    /age="62"
+    /sex="female"
+    /sequencing_batch="D"
+Accession: SAMN15185047	ID: 15185047
+
+256: POS_250
+Identifiers: BioSample: SAMN15185046; GEO: GSM4602483
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.38"
+    /age="64"
+    /sex="male"
+    /sequencing_batch="C"
+Accession: SAMN15185046	ID: 15185046
+
+257: POS_251
+Identifiers: BioSample: SAMN15185045; GEO: GSM4602484
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.35"
+    /age="16"
+    /sex="male"
+    /sequencing_batch="D"
+Accession: SAMN15185045	ID: 15185045
+
+258: POS_205
+Identifiers: BioSample: SAMN15185044; GEO: GSM4602440
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.36"
+    /age="59"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185044	ID: 15185044
+
+259: POS_206
+Identifiers: BioSample: SAMN15185043; GEO: GSM4602441
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.67"
+    /age="60"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185043	ID: 15185043
+
+260: POS_207
+Identifiers: BioSample: SAMN15185042; GEO: GSM4602442
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.44"
+    /age="76"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185042	ID: 15185042
+
+261: POS_208
+Identifiers: BioSample: SAMN15185041; GEO: GSM4602443
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.23"
+    /age="32"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185041	ID: 15185041
+
+262: POS_209
+Identifiers: BioSample: SAMN15185040; GEO: GSM4602444
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.48"
+    /age="66"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185040	ID: 15185040
+
+263: POS_210
+Identifiers: BioSample: SAMN15185039; GEO: GSM4602445
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.29"
+    /age="65"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185039	ID: 15185039
+
+264: POS_211
+Identifiers: BioSample: SAMN15185038; GEO: GSM4602446
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.97"
+    /age="33"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185038	ID: 15185038
+
+265: POS_212
+Identifiers: BioSample: SAMN15185037; GEO: GSM4602447
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.08"
+    /age="72"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185037	ID: 15185037
+
+266: POS_213
+Identifiers: BioSample: SAMN15185036; GEO: GSM4602448
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.81"
+    /age="12"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185036	ID: 15185036
+
+267: POS_214
+Identifiers: BioSample: SAMN15185035; GEO: GSM4602449
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.9"
+    /age="51"
+    /sex="male"
+    /sequencing_batch="K"
+Accession: SAMN15185035	ID: 15185035
+
+268: POS_215
+Identifiers: BioSample: SAMN15185034; GEO: GSM4602450
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.12"
+    /age="80"
+    /sex="male"
+    /sequencing_batch="M"
+Accession: SAMN15185034	ID: 15185034
+
+269: POS_216
+Identifiers: BioSample: SAMN15185033; GEO: GSM4602451
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.03"
+    /age="45"
+    /sex="female"
+    /sequencing_batch="H"
+Accession: SAMN15185033	ID: 15185033
+
+270: POS_217
+Identifiers: BioSample: SAMN15185032; GEO: GSM4602452
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.9381"
+    /age="57"
+    /sex="female"
+    /sequencing_batch="G"
+Accession: SAMN15185032	ID: 15185032
+
+271: POS_218
+Identifiers: BioSample: SAMN15185031; GEO: GSM4602453
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.66"
+    /age="57"
+    /sex="male"
+    /sequencing_batch="J"
+Accession: SAMN15185031	ID: 15185031
+
+272: POS_219
+Identifiers: BioSample: SAMN15185030; GEO: GSM4602454
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.38"
+    /age="47"
+    /sex="female"
+    /sequencing_batch="H"
+Accession: SAMN15185030	ID: 15185030
+
+273: POS_220
+Identifiers: BioSample: SAMN15185029; GEO: GSM4602455
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.68"
+    /age="86"
+    /sex="female"
+    /sequencing_batch="H"
+Accession: SAMN15185029	ID: 15185029
+
+274: POS_221
+Identifiers: BioSample: SAMN15185028; GEO: GSM4602456
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.18"
+    /age="29"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15185028	ID: 15185028
+
+275: POS_222
+Identifiers: BioSample: SAMN15185027; GEO: GSM4602457
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.77"
+    /age="33"
+    /sex="male"
+    /sequencing_batch="H"
+Accession: SAMN15185027	ID: 15185027
+
+276: POS_223
+Identifiers: BioSample: SAMN15185026; GEO: GSM4602458
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.34"
+    /age="43"
+    /sex="male"
+    /sequencing_batch="K"
+Accession: SAMN15185026	ID: 15185026
+
+277: POS_224
+Identifiers: BioSample: SAMN15185025; GEO: GSM4602459
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.62"
+    /age="31"
+    /sex="female"
+    /sequencing_batch="H"
+Accession: SAMN15185025	ID: 15185025
+
+278: POS_225
+Identifiers: BioSample: SAMN15185024; GEO: GSM4602460
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="27.24"
+    /age="78"
+    /sex="female"
+    /sequencing_batch="B"
+Accession: SAMN15185024	ID: 15185024
+
+279: POS_226
+Identifiers: BioSample: SAMN15185023; GEO: GSM4602461
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.89"
+    /age="79"
+    /sex="female"
+    /sequencing_batch="B"
+Accession: SAMN15185023	ID: 15185023
+
+280: POS_227
+Identifiers: BioSample: SAMN15185022; GEO: GSM4602462
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.13"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="B"
+Accession: SAMN15185022	ID: 15185022
+
+281: POS_228
+Identifiers: BioSample: SAMN15185021; GEO: GSM4602463
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="27.92"
+    /age="81"
+    /sex="male"
+    /sequencing_batch="B"
+Accession: SAMN15185021	ID: 15185021
+
+282: POS_389
+Identifiers: BioSample: SAMN15185020; GEO: GSM4602621
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.46"
+    /age="18"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15185020	ID: 15185020
+
+283: POS_390
+Identifiers: BioSample: SAMN15185019; GEO: GSM4602622
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.22"
+    /age="44"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15185019	ID: 15185019
+
+284: POS_387
+Identifiers: BioSample: SAMN15185018; GEO: GSM4602619
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.53"
+    /age="55"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15185018	ID: 15185018
+
+285: POS_388
+Identifiers: BioSample: SAMN15185017; GEO: GSM4602620
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.9453"
+    /age="78"
+    /sex="female"
+    /sequencing_batch="G"
+Accession: SAMN15185017	ID: 15185017
+
+286: POS_186
+Identifiers: BioSample: SAMN15185016; GEO: GSM4602421
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.54"
+    /age="40"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185016	ID: 15185016
+
+287: POS_187
+Identifiers: BioSample: SAMN15185015; GEO: GSM4602422
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.64"
+    /age="31"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185015	ID: 15185015
+
+288: POS_188
+Identifiers: BioSample: SAMN15185014; GEO: GSM4602423
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.94"
+    /age="22"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185014	ID: 15185014
+
+289: POS_189
+Identifiers: BioSample: SAMN15185013; GEO: GSM4602424
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.25"
+    /age="61"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185013	ID: 15185013
+
+290: POS_190
+Identifiers: BioSample: SAMN15185012; GEO: GSM4602425
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.54"
+    /age="24"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185012	ID: 15185012
+
+291: POS_191
+Identifiers: BioSample: SAMN15185011; GEO: GSM4602426
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.33"
+    /age="67"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185011	ID: 15185011
+
+292: POS_192
+Identifiers: BioSample: SAMN15185010; GEO: GSM4602427
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.94"
+    /age="37"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185010	ID: 15185010
+
+293: POS_193
+Identifiers: BioSample: SAMN15185009; GEO: GSM4602428
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.16"
+    /age="51"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185009	ID: 15185009
+
+294: POS_194
+Identifiers: BioSample: SAMN15185008; GEO: GSM4602429
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.38"
+    /age="83"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185008	ID: 15185008
+
+295: POS_195
+Identifiers: BioSample: SAMN15185007; GEO: GSM4602430
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.81"
+    /age="39"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185007	ID: 15185007
+
+296: POS_196
+Identifiers: BioSample: SAMN15185006; GEO: GSM4602431
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.24"
+    /age="41"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185006	ID: 15185006
+
+297: POS_197
+Identifiers: BioSample: SAMN15185005; GEO: GSM4602432
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.99"
+    /age="48"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185005	ID: 15185005
+
+298: POS_198
+Identifiers: BioSample: SAMN15185004; GEO: GSM4602433
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.36"
+    /age="26"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185004	ID: 15185004
+
+299: POS_199
+Identifiers: BioSample: SAMN15185003; GEO: GSM4602434
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.32"
+    /age="79"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15185003	ID: 15185003
+
+300: POS_200
+Identifiers: BioSample: SAMN15185002; GEO: GSM4602435
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.92"
+    /age="62"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185002	ID: 15185002
+
+
+301: POS_201
+Identifiers: BioSample: SAMN15185001; GEO: GSM4602436
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.38"
+    /age="76"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185001	ID: 15185001
+
+302: POS_202
+Identifiers: BioSample: SAMN15185000; GEO: GSM4602437
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.59"
+    /age="44"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15185000	ID: 15185000
+
+303: POS_203
+Identifiers: BioSample: SAMN15184999; GEO: GSM4602438
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.42"
+    /age="57"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184999	ID: 15184999
+
+304: POS_204
+Identifiers: BioSample: SAMN15184998; GEO: GSM4602439
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.15"
+    /age="72"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184998	ID: 15184998
+
+305: POS_070
+Identifiers: BioSample: SAMN15184997; GEO: GSM4602308
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.55"
+    /age="51"
+    /sex="female"
+    /sequencing_batch="F"
+Accession: SAMN15184997	ID: 15184997
+
+306: POS_071
+Identifiers: BioSample: SAMN15184996; GEO: GSM4602309
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.31"
+    /age="72"
+    /sex="male"
+    /sequencing_batch="F"
+Accession: SAMN15184996	ID: 15184996
+
+307: POS_072
+Identifiers: BioSample: SAMN15184995; GEO: GSM4602310
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.55"
+    /age="66"
+    /sex="male"
+    /sequencing_batch="F"
+Accession: SAMN15184995	ID: 15184995
+
+308: POS_073
+Identifiers: BioSample: SAMN15184994; GEO: GSM4602311
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.93"
+    /age="57"
+    /sex="male"
+    /sequencing_batch="F"
+Accession: SAMN15184994	ID: 15184994
+
+309: POS_074
+Identifiers: BioSample: SAMN15184993; GEO: GSM4602312
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.11"
+    /age="83"
+    /sex="not collected"
+    /sequencing_batch="F"
+Accession: SAMN15184993	ID: 15184993
+
+310: POS_075
+Identifiers: BioSample: SAMN15184992; GEO: GSM4602313
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.41"
+    /age="56"
+    /sex="male"
+    /sequencing_batch="I"
+Accession: SAMN15184992	ID: 15184992
+
+311: POS_076
+Identifiers: BioSample: SAMN15184991; GEO: GSM4602314
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.24"
+    /age="49"
+    /sex="female"
+    /sequencing_batch="I"
+Accession: SAMN15184991	ID: 15184991
+
+312: POS_077
+Identifiers: BioSample: SAMN15184990; GEO: GSM4602315
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.66"
+    /age="44"
+    /sex="female"
+    /sequencing_batch="F"
+Accession: SAMN15184990	ID: 15184990
+
+313: POS_078
+Identifiers: BioSample: SAMN15184989; GEO: GSM4602316
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.45"
+    /age="49"
+    /sex="not collected"
+    /sequencing_batch="F"
+Accession: SAMN15184989	ID: 15184989
+
+314: POS_079
+Identifiers: BioSample: SAMN15184988; GEO: GSM4602317
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.83"
+    /age="57"
+    /sex="female"
+    /sequencing_batch="I"
+Accession: SAMN15184988	ID: 15184988
+
+315: POS_080
+Identifiers: BioSample: SAMN15184987; GEO: GSM4602318
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.69"
+    /age="34"
+    /sex="female"
+    /sequencing_batch="F"
+Accession: SAMN15184987	ID: 15184987
+
+316: POS_081
+Identifiers: BioSample: SAMN15184986; GEO: GSM4602319
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.37"
+    /age="57"
+    /sex="not collected"
+    /sequencing_batch="F"
+Accession: SAMN15184986	ID: 15184986
+
+317: POS_082
+Identifiers: BioSample: SAMN15184985; GEO: GSM4602320
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.09"
+    /age="46"
+    /sex="not collected"
+    /sequencing_batch="F"
+Accession: SAMN15184985	ID: 15184985
+
+318: POS_083
+Identifiers: BioSample: SAMN15184984; GEO: GSM4602321
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.78"
+    /age="26"
+    /sex="male"
+    /sequencing_batch="F"
+Accession: SAMN15184984	ID: 15184984
+
+319: POS_084
+Identifiers: BioSample: SAMN15184983; GEO: GSM4602322
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.75"
+    /age="69"
+    /sex="female"
+    /sequencing_batch="I"
+Accession: SAMN15184983	ID: 15184983
+
+320: POS_085
+Identifiers: BioSample: SAMN15184982; GEO: GSM4602323
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.11"
+    /age="56"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15184982	ID: 15184982
+
+321: POS_086
+Identifiers: BioSample: SAMN15184981; GEO: GSM4602324
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.4"
+    /age="30"
+    /sex="male"
+    /sequencing_batch="O"
+Accession: SAMN15184981	ID: 15184981
+
+322: POS_087
+Identifiers: BioSample: SAMN15184980; GEO: GSM4602325
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.72"
+    /age="58"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15184980	ID: 15184980
+
+323: POS_088
+Identifiers: BioSample: SAMN15184979; GEO: GSM4602326
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.04"
+    /age="77"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15184979	ID: 15184979
+
+324: POS_044
+Identifiers: BioSample: SAMN15184978; GEO: GSM4602283
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.76"
+    /age="51"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184978	ID: 15184978
+
+325: POS_045
+Identifiers: BioSample: SAMN15184977; GEO: GSM4602284
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.07"
+    /age="71"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184977	ID: 15184977
+
+326: POS_046
+Identifiers: BioSample: SAMN15184976; GEO: GSM4602285
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.6"
+    /age="88"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184976	ID: 15184976
+
+327: POS_047
+Identifiers: BioSample: SAMN15184975; GEO: GSM4602286
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.4"
+    /age="71"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184975	ID: 15184975
+
+328: POS_048
+Identifiers: BioSample: SAMN15184974; GEO: GSM4602287
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.92"
+    /age="41"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184974	ID: 15184974
+
+329: POS_049
+Identifiers: BioSample: SAMN15184973; GEO: GSM4602288
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.54"
+    /age="51"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184973	ID: 15184973
+
+330: POS_050
+Identifiers: BioSample: SAMN15184972; GEO: GSM4602289
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.22"
+    /age="53"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184972	ID: 15184972
+
+331: POS_051
+Identifiers: BioSample: SAMN15184971; GEO: GSM4602290
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.09"
+    /age="52"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184971	ID: 15184971
+
+332: POS_052
+Identifiers: BioSample: SAMN15184970; GEO: GSM4602291
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.96"
+    /age="80"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184970	ID: 15184970
+
+333: POS_053
+Identifiers: BioSample: SAMN15184969; GEO: GSM4602292
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.48"
+    /age="37"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184969	ID: 15184969
+
+334: POS_055
+Identifiers: BioSample: SAMN15184968; GEO: GSM4602293
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.85"
+    /age="51"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184968	ID: 15184968
+
+335: POS_056
+Identifiers: BioSample: SAMN15184967; GEO: GSM4602294
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.2"
+    /age="41"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184967	ID: 15184967
+
+336: POS_057
+Identifiers: BioSample: SAMN15184966; GEO: GSM4602295
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.65"
+    /age="64"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184966	ID: 15184966
+
+337: POS_058
+Identifiers: BioSample: SAMN15184965; GEO: GSM4602296
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.73"
+    /age="28"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184965	ID: 15184965
+
+338: POS_059
+Identifiers: BioSample: SAMN15184964; GEO: GSM4602297
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.6"
+    /age="37"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184964	ID: 15184964
+
+339: POS_060
+Identifiers: BioSample: SAMN15184963; GEO: GSM4602298
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.35"
+    /age="62"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184963	ID: 15184963
+
+340: POS_061
+Identifiers: BioSample: SAMN15184962; GEO: GSM4602299
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.41"
+    /age="78"
+    /sex="female"
+    /sequencing_batch="E"
+Accession: SAMN15184962	ID: 15184962
+
+341: POS_062
+Identifiers: BioSample: SAMN15184961; GEO: GSM4602300
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.29"
+    /age="19"
+    /sex="female"
+    /sequencing_batch="F"
+Accession: SAMN15184961	ID: 15184961
+
+342: POS_063
+Identifiers: BioSample: SAMN15184960; GEO: GSM4602301
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.69"
+    /age="76"
+    /sex="male"
+    /sequencing_batch="E"
+Accession: SAMN15184960	ID: 15184960
+
+343: POS_064
+Identifiers: BioSample: SAMN15184959; GEO: GSM4602302
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.33"
+    /age="23"
+    /sex="male"
+    /sequencing_batch="F"
+Accession: SAMN15184959	ID: 15184959
+
+344: POS_065
+Identifiers: BioSample: SAMN15184958; GEO: GSM4602303
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.09"
+    /age="30"
+    /sex="male"
+    /sequencing_batch="F"
+Accession: SAMN15184958	ID: 15184958
+
+345: POS_066
+Identifiers: BioSample: SAMN15184957; GEO: GSM4602304
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.64"
+    /age="63"
+    /sex="female"
+    /sequencing_batch="F"
+Accession: SAMN15184957	ID: 15184957
+
+346: POS_067
+Identifiers: BioSample: SAMN15184956; GEO: GSM4602305
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.75"
+    /age="75"
+    /sex="female"
+    /sequencing_batch="F"
+Accession: SAMN15184956	ID: 15184956
+
+347: POS_068
+Identifiers: BioSample: SAMN15184955; GEO: GSM4602306
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.71"
+    /age="65"
+    /sex="female"
+    /sequencing_batch="F"
+Accession: SAMN15184955	ID: 15184955
+
+348: POS_069
+Identifiers: BioSample: SAMN15184954; GEO: GSM4602307
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.78"
+    /age="21"
+    /sex="female"
+    /sequencing_batch="F"
+Accession: SAMN15184954	ID: 15184954
+
+349: POS_181
+Identifiers: BioSample: SAMN15184953; GEO: GSM4602416
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.1274"
+    /age="37"
+    /sex="male"
+    /sequencing_batch="G"
+Accession: SAMN15184953	ID: 15184953
+
+350: POS_182
+Identifiers: BioSample: SAMN15184952; GEO: GSM4602417
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.9152"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="G"
+Accession: SAMN15184952	ID: 15184952
+
+
+351: POS_183
+Identifiers: BioSample: SAMN15184951; GEO: GSM4602418
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.81"
+    /age="50"
+    /sex="male"
+    /sequencing_batch="J"
+Accession: SAMN15184951	ID: 15184951
+
+352: POS_184
+Identifiers: BioSample: SAMN15184950; GEO: GSM4602419
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.8"
+    /age="48"
+    /sex="male"
+    /sequencing_batch="J"
+Accession: SAMN15184950	ID: 15184950
+
+353: POS_185
+Identifiers: BioSample: SAMN15184949; GEO: GSM4602420
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.11"
+    /age="90+"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184949	ID: 15184949
+
+354: POS_027
+Identifiers: BioSample: SAMN15184948; GEO: GSM4602267
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.31"
+    /age="51"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15184948	ID: 15184948
+
+355: POS_028
+Identifiers: BioSample: SAMN15184947; GEO: GSM4602268
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.62"
+    /age="25"
+    /sex="male"
+    /sequencing_batch="J"
+Accession: SAMN15184947	ID: 15184947
+
+356: POS_029
+Identifiers: BioSample: SAMN15184946; GEO: GSM4602269
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.54"
+    /age="82"
+    /sex="male"
+    /sequencing_batch="I"
+Accession: SAMN15184946	ID: 15184946
+
+357: POS_030
+Identifiers: BioSample: SAMN15184945; GEO: GSM4602270
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.19"
+    /age="72"
+    /sex="female"
+    /sequencing_batch="H"
+Accession: SAMN15184945	ID: 15184945
+
+358: POS_031
+Identifiers: BioSample: SAMN15184944; GEO: GSM4602271
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.17"
+    /age="78"
+    /sex="male"
+    /sequencing_batch="H"
+Accession: SAMN15184944	ID: 15184944
+
+359: POS_032
+Identifiers: BioSample: SAMN15184943; GEO: GSM4602272
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.12"
+    /age="72"
+    /sex="male"
+    /sequencing_batch="H"
+Accession: SAMN15184943	ID: 15184943
+
+360: POS_033
+Identifiers: BioSample: SAMN15184942; GEO: GSM4602273
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.92"
+    /age="61"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15184942	ID: 15184942
+
+361: POS_034
+Identifiers: BioSample: SAMN15184941; GEO: GSM4602274
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.29"
+    /age="68"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15184941	ID: 15184941
+
+362: POS_035
+Identifiers: BioSample: SAMN15184940; GEO: GSM4602275
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.63"
+    /age="34"
+    /sex="male"
+    /sequencing_batch="O"
+Accession: SAMN15184940	ID: 15184940
+
+363: POS_036
+Identifiers: BioSample: SAMN15184939; GEO: GSM4602276
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.29"
+    /age="75"
+    /sex="male"
+    /sequencing_batch="O"
+Accession: SAMN15184939	ID: 15184939
+
+364: POS_037
+Identifiers: BioSample: SAMN15184938; GEO: GSM4602277
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.92"
+    /age="55"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15184938	ID: 15184938
+
+365: POS_039
+Identifiers: BioSample: SAMN15184937; GEO: GSM4602278
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="13.28"
+    /age="46"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184937	ID: 15184937
+
+366: POS_040
+Identifiers: BioSample: SAMN15184936; GEO: GSM4602279
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.52"
+    /age="27"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184936	ID: 15184936
+
+367: POS_041
+Identifiers: BioSample: SAMN15184935; GEO: GSM4602280
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.83"
+    /age="31"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184935	ID: 15184935
+
+368: POS_042
+Identifiers: BioSample: SAMN15184934; GEO: GSM4602281
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.64"
+    /age="51"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184934	ID: 15184934
+
+369: POS_043
+Identifiers: BioSample: SAMN15184933; GEO: GSM4602282
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.06"
+    /age="46"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184933	ID: 15184933
+
+370: POS_158
+Identifiers: BioSample: SAMN15184932; GEO: GSM4602393
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.71"
+    /age="27"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184932	ID: 15184932
+
+371: POS_159
+Identifiers: BioSample: SAMN15184931; GEO: GSM4602394
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.34"
+    /age="30"
+    /sex="male"
+    /sequencing_batch="H"
+Accession: SAMN15184931	ID: 15184931
+
+372: POS_160
+Identifiers: BioSample: SAMN15184930; GEO: GSM4602395
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.94"
+    /age="82"
+    /sex="female"
+    /sequencing_batch="H"
+Accession: SAMN15184930	ID: 15184930
+
+373: POS_161
+Identifiers: BioSample: SAMN15184929; GEO: GSM4602396
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.8097"
+    /age="87"
+    /sex="female"
+    /sequencing_batch="G"
+Accession: SAMN15184929	ID: 15184929
+
+374: POS_162
+Identifiers: BioSample: SAMN15184928; GEO: GSM4602397
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.93"
+    /age="56"
+    /sex="male"
+    /sequencing_batch="K"
+Accession: SAMN15184928	ID: 15184928
+
+375: POS_163
+Identifiers: BioSample: SAMN15184927; GEO: GSM4602398
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.83"
+    /age="70"
+    /sex="male"
+    /sequencing_batch="H"
+Accession: SAMN15184927	ID: 15184927
+
+376: POS_164
+Identifiers: BioSample: SAMN15184926; GEO: GSM4602399
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.2725"
+    /age="66"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15184926	ID: 15184926
+
+377: POS_165
+Identifiers: BioSample: SAMN15184925; GEO: GSM4602400
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.637"
+    /age="72"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15184925	ID: 15184925
+
+378: POS_166
+Identifiers: BioSample: SAMN15184924; GEO: GSM4602401
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.46"
+    /age="50"
+    /sex="male"
+    /sequencing_batch="H"
+Accession: SAMN15184924	ID: 15184924
+
+379: POS_167
+Identifiers: BioSample: SAMN15184923; GEO: GSM4602402
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.4803"
+    /age="49"
+    /sex="female"
+    /sequencing_batch="G"
+Accession: SAMN15184923	ID: 15184923
+
+380: POS_168
+Identifiers: BioSample: SAMN15184922; GEO: GSM4602403
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.5525"
+    /age="56"
+    /sex="not collected"
+    /sequencing_batch="J"
+Accession: SAMN15184922	ID: 15184922
+
+381: POS_169
+Identifiers: BioSample: SAMN15184921; GEO: GSM4602404
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.54"
+    /age="50"
+    /sex="female"
+    /sequencing_batch="M"
+Accession: SAMN15184921	ID: 15184921
+
+382: POS_170
+Identifiers: BioSample: SAMN15184920; GEO: GSM4602405
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.69"
+    /age="52"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15184920	ID: 15184920
+
+383: POS_171
+Identifiers: BioSample: SAMN15184919; GEO: GSM4602406
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.73"
+    /age="75"
+    /sex="not collected"
+    /sequencing_batch="H"
+Accession: SAMN15184919	ID: 15184919
+
+384: POS_172
+Identifiers: BioSample: SAMN15184918; GEO: GSM4602407
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.93"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="M"
+Accession: SAMN15184918	ID: 15184918
+
+385: POS_173
+Identifiers: BioSample: SAMN15184917; GEO: GSM4602408
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.78"
+    /age="82"
+    /sex="female"
+    /sequencing_batch="K"
+Accession: SAMN15184917	ID: 15184917
+
+386: POS_174
+Identifiers: BioSample: SAMN15184916; GEO: GSM4602409
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.12"
+    /age="30"
+    /sex="male"
+    /sequencing_batch="J"
+Accession: SAMN15184916	ID: 15184916
+
+387: POS_175
+Identifiers: BioSample: SAMN15184915; GEO: GSM4602410
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.17"
+    /age="83"
+    /sex="female"
+    /sequencing_batch="K"
+Accession: SAMN15184915	ID: 15184915
+
+388: POS_176
+Identifiers: BioSample: SAMN15184914; GEO: GSM4602411
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.33"
+    /age="21"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15184914	ID: 15184914
+
+389: POS_177
+Identifiers: BioSample: SAMN15184913; GEO: GSM4602412
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.53"
+    /age="45"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15184913	ID: 15184913
+
+390: POS_178
+Identifiers: BioSample: SAMN15184912; GEO: GSM4602413
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.64"
+    /age="64"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15184912	ID: 15184912
+
+391: POS_179
+Identifiers: BioSample: SAMN15184911; GEO: GSM4602414
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.91"
+    /age="48"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184911	ID: 15184911
+
+392: POS_180
+Identifiers: BioSample: SAMN15184910; GEO: GSM4602415
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.6424"
+    /age="76"
+    /sex="male"
+    /sequencing_batch="G"
+Accession: SAMN15184910	ID: 15184910
+
+393: POS_131
+Identifiers: BioSample: SAMN15184909; GEO: GSM4602367
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.92"
+    /age="27"
+    /sex="male"
+    /sequencing_batch="M"
+Accession: SAMN15184909	ID: 15184909
+
+394: POS_132
+Identifiers: BioSample: SAMN15184908; GEO: GSM4602368
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.92"
+    /age="90+"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15184908	ID: 15184908
+
+395: POS_133
+Identifiers: BioSample: SAMN15184907; GEO: GSM4602369
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.16"
+    /age="29"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184907	ID: 15184907
+
+396: POS_134
+Identifiers: BioSample: SAMN15184906; GEO: GSM4602370
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.59"
+    /age="51"
+    /sex="female"
+    /sequencing_batch="M"
+Accession: SAMN15184906	ID: 15184906
+
+397: POS_135
+Identifiers: BioSample: SAMN15184905; GEO: GSM4602371
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.2"
+    /age="50"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184905	ID: 15184905
+
+398: POS_136
+Identifiers: BioSample: SAMN15184904; GEO: GSM4602372
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.86"
+    /age="28"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184904	ID: 15184904
+
+399: POS_137
+Identifiers: BioSample: SAMN15184903; GEO: GSM4602373
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.36"
+    /age="30"
+    /sex="male"
+    /sequencing_batch="N"
+Accession: SAMN15184903	ID: 15184903
+
+400: POS_138
+Identifiers: BioSample: SAMN15184902; GEO: GSM4602374
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="26.01"
+    /age="27"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15184902	ID: 15184902
+
+
+401: POS_139
+Identifiers: BioSample: SAMN15184901; GEO: GSM4602375
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.26"
+    /age="48"
+    /sex="female"
+    /sequencing_batch="N"
+Accession: SAMN15184901	ID: 15184901
+
+402: POS_141
+Identifiers: BioSample: SAMN15184900; GEO: GSM4602376
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.59"
+    /age="64"
+    /sex="male"
+    /sequencing_batch="N"
+Accession: SAMN15184900	ID: 15184900
+
+403: POS_142
+Identifiers: BioSample: SAMN15184899; GEO: GSM4602377
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.93"
+    /age="80"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15184899	ID: 15184899
+
+404: POS_143
+Identifiers: BioSample: SAMN15184898; GEO: GSM4602378
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.55"
+    /age="52"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15184898	ID: 15184898
+
+405: POS_144
+Identifiers: BioSample: SAMN15184897; GEO: GSM4602379
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.82"
+    /age="44"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15184897	ID: 15184897
+
+406: POS_145
+Identifiers: BioSample: SAMN15184896; GEO: GSM4602380
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.57"
+    /age="90+"
+    /sex="male"
+    /sequencing_batch="N"
+Accession: SAMN15184896	ID: 15184896
+
+407: POS_146
+Identifiers: BioSample: SAMN15184895; GEO: GSM4602381
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.42"
+    /age="41"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15184895	ID: 15184895
+
+408: POS_147
+Identifiers: BioSample: SAMN15184894; GEO: GSM4602382
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.14"
+    /age="46"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15184894	ID: 15184894
+
+409: POS_148
+Identifiers: BioSample: SAMN15184893; GEO: GSM4602383
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.6"
+    /age="63"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15184893	ID: 15184893
+
+410: POS_149
+Identifiers: BioSample: SAMN15184892; GEO: GSM4602384
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.39"
+    /age="76"
+    /sex="male"
+    /sequencing_batch="N"
+Accession: SAMN15184892	ID: 15184892
+
+411: POS_150
+Identifiers: BioSample: SAMN15184891; GEO: GSM4602385
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.71"
+    /age="30"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15184891	ID: 15184891
+
+412: POS_151
+Identifiers: BioSample: SAMN15184890; GEO: GSM4602386
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.03"
+    /age="29"
+    /sex="female"
+    /sequencing_batch="P"
+Accession: SAMN15184890	ID: 15184890
+
+413: POS_152
+Identifiers: BioSample: SAMN15184889; GEO: GSM4602387
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.87"
+    /age="41"
+    /sex="male"
+    /sequencing_batch="N"
+Accession: SAMN15184889	ID: 15184889
+
+414: POS_153
+Identifiers: BioSample: SAMN15184888; GEO: GSM4602388
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.15"
+    /age="53"
+    /sex="male"
+    /sequencing_batch="P"
+Accession: SAMN15184888	ID: 15184888
+
+415: POS_154
+Identifiers: BioSample: SAMN15184887; GEO: GSM4602389
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.17"
+    /age="20"
+    /sex="not collected"
+    /sequencing_batch="P"
+Accession: SAMN15184887	ID: 15184887
+
+416: POS_155
+Identifiers: BioSample: SAMN15184886; GEO: GSM4602390
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.21"
+    /age="39"
+    /sex="female"
+    /sequencing_batch="K"
+Accession: SAMN15184886	ID: 15184886
+
+417: POS_156
+Identifiers: BioSample: SAMN15184885; GEO: GSM4602391
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.73"
+    /age="25"
+    /sex="female"
+    /sequencing_batch="H"
+Accession: SAMN15184885	ID: 15184885
+
+418: POS_157
+Identifiers: BioSample: SAMN15184884; GEO: GSM4602392
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.79"
+    /age="72"
+    /sex="female"
+    /sequencing_batch="H"
+Accession: SAMN15184884	ID: 15184884
+
+419: POS_107
+Identifiers: BioSample: SAMN15184883; GEO: GSM4602344
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.01"
+    /age="65"
+    /sex="male"
+    /sequencing_batch="B"
+Accession: SAMN15184883	ID: 15184883
+
+420: POS_108
+Identifiers: BioSample: SAMN15184882; GEO: GSM4602345
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.43"
+    /age="67"
+    /sex="female"
+    /sequencing_batch="B"
+Accession: SAMN15184882	ID: 15184882
+
+421: POS_109
+Identifiers: BioSample: SAMN15184881; GEO: GSM4602346
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.34"
+    /age="80"
+    /sex="male"
+    /sequencing_batch="C"
+Accession: SAMN15184881	ID: 15184881
+
+422: POS_111
+Identifiers: BioSample: SAMN15184880; GEO: GSM4602347
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.31"
+    /age="43"
+    /sex="female"
+    /sequencing_batch="B"
+Accession: SAMN15184880	ID: 15184880
+
+423: POS_112
+Identifiers: BioSample: SAMN15184879; GEO: GSM4602348
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.81"
+    /age="49"
+    /sex="male"
+    /sequencing_batch="M"
+Accession: SAMN15184879	ID: 15184879
+
+424: POS_113
+Identifiers: BioSample: SAMN15184878; GEO: GSM4602349
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="26.34"
+    /age="53"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15184878	ID: 15184878
+
+425: POS_114
+Identifiers: BioSample: SAMN15184877; GEO: GSM4602350
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.51"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184877	ID: 15184877
+
+426: POS_115
+Identifiers: BioSample: SAMN15184876; GEO: GSM4602351
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.76"
+    /age="38"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184876	ID: 15184876
+
+427: POS_116
+Identifiers: BioSample: SAMN15184875; GEO: GSM4602352
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.53"
+    /age="70"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15184875	ID: 15184875
+
+428: POS_117
+Identifiers: BioSample: SAMN15184874; GEO: GSM4602353
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.74"
+    /age="38"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15184874	ID: 15184874
+
+429: POS_118
+Identifiers: BioSample: SAMN15184873; GEO: GSM4602354
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.84"
+    /age="54"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184873	ID: 15184873
+
+430: POS_119
+Identifiers: BioSample: SAMN15184872; GEO: GSM4602355
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.08"
+    /age="66"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184872	ID: 15184872
+
+431: POS_120
+Identifiers: BioSample: SAMN15184871; GEO: GSM4602356
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.93"
+    /age="67"
+    /sex="male"
+    /sequencing_batch="L"
+Accession: SAMN15184871	ID: 15184871
+
+432: POS_121
+Identifiers: BioSample: SAMN15184870; GEO: GSM4602357
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.5"
+    /age="36"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15184870	ID: 15184870
+
+433: POS_122
+Identifiers: BioSample: SAMN15184869; GEO: GSM4602358
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.18"
+    /age="56"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184869	ID: 15184869
+
+434: POS_123
+Identifiers: BioSample: SAMN15184868; GEO: GSM4602359
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.09"
+    /age="41"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15184868	ID: 15184868
+
+435: POS_124
+Identifiers: BioSample: SAMN15184867; GEO: GSM4602360
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.56"
+    /age="20"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15184867	ID: 15184867
+
+436: POS_125
+Identifiers: BioSample: SAMN15184866; GEO: GSM4602361
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.65"
+    /age="51"
+    /sex="not collected"
+    /sequencing_batch="L"
+Accession: SAMN15184866	ID: 15184866
+
+437: POS_126
+Identifiers: BioSample: SAMN15184865; GEO: GSM4602362
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.08"
+    /age="66"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184865	ID: 15184865
+
+438: POS_127
+Identifiers: BioSample: SAMN15184864; GEO: GSM4602363
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.31"
+    /age="35"
+    /sex="female"
+    /sequencing_batch="M"
+Accession: SAMN15184864	ID: 15184864
+
+439: POS_128
+Identifiers: BioSample: SAMN15184863; GEO: GSM4602364
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.46"
+    /age="90+"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184863	ID: 15184863
+
+440: POS_129
+Identifiers: BioSample: SAMN15184862; GEO: GSM4602365
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.21"
+    /age="47"
+    /sex="female"
+    /sequencing_batch="M"
+Accession: SAMN15184862	ID: 15184862
+
+441: POS_130
+Identifiers: BioSample: SAMN15184861; GEO: GSM4602366
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.43"
+    /age="35"
+    /sex="female"
+    /sequencing_batch="L"
+Accession: SAMN15184861	ID: 15184861
+
+442: POS_020
+Identifiers: BioSample: SAMN15184860; GEO: GSM4602260
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.2341"
+    /age="61"
+    /sex="male"
+    /sequencing_batch="J"
+Accession: SAMN15184860	ID: 15184860
+
+443: POS_021
+Identifiers: BioSample: SAMN15184859; GEO: GSM4602261
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.8"
+    /age="60"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15184859	ID: 15184859
+
+444: POS_022
+Identifiers: BioSample: SAMN15184858; GEO: GSM4602262
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.5"
+    /age="23"
+    /sex="male"
+    /sequencing_batch="H"
+Accession: SAMN15184858	ID: 15184858
+
+445: POS_023
+Identifiers: BioSample: SAMN15184857; GEO: GSM4602263
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="16.66"
+    /age="61"
+    /sex="female"
+    /sequencing_batch="I"
+Accession: SAMN15184857	ID: 15184857
+
+446: POS_024
+Identifiers: BioSample: SAMN15184856; GEO: GSM4602264
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.21"
+    /age="33"
+    /sex="female"
+    /sequencing_batch="I"
+Accession: SAMN15184856	ID: 15184856
+
+447: POS_025
+Identifiers: BioSample: SAMN15184855; GEO: GSM4602265
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.64"
+    /age="33"
+    /sex="female"
+    /sequencing_batch="J"
+Accession: SAMN15184855	ID: 15184855
+
+448: POS_026
+Identifiers: BioSample: SAMN15184854; GEO: GSM4602266
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.64"
+    /age="24"
+    /sex="male"
+    /sequencing_batch="J"
+Accession: SAMN15184854	ID: 15184854
+
+449: POS_089
+Identifiers: BioSample: SAMN15184853; GEO: GSM4602327
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.96"
+    /age="33"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15184853	ID: 15184853
+
+450: POS_090
+Identifiers: BioSample: SAMN15184852; GEO: GSM4602328
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.85"
+    /age="53"
+    /sex="male"
+    /sequencing_batch="O"
+Accession: SAMN15184852	ID: 15184852
+
+
+451: POS_092
+Identifiers: BioSample: SAMN15184851; GEO: GSM4602329
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.84"
+    /age="56"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15184851	ID: 15184851
+
+452: POS_094
+Identifiers: BioSample: SAMN15184850; GEO: GSM4602331
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="12.32"
+    /age="44"
+    /sex="male"
+    /sequencing_batch="O"
+Accession: SAMN15184850	ID: 15184850
+
+453: POS_095
+Identifiers: BioSample: SAMN15184849; GEO: GSM4602332
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.32"
+    /age="28"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15184849	ID: 15184849
+
+454: POS_096
+Identifiers: BioSample: SAMN15184848; GEO: GSM4602333
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.55"
+    /age="46"
+    /sex="female"
+    /sequencing_batch="O"
+Accession: SAMN15184848	ID: 15184848
+
+455: POS_097
+Identifiers: BioSample: SAMN15184847; GEO: GSM4602334
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="20.73"
+    /age="28"
+    /sex="female"
+    /sequencing_batch="Q"
+Accession: SAMN15184847	ID: 15184847
+
+456: POS_098
+Identifiers: BioSample: SAMN15184846; GEO: GSM4602335
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.79"
+    /age="43"
+    /sex="male"
+    /sequencing_batch="Q"
+Accession: SAMN15184846	ID: 15184846
+
+457: POS_093
+Identifiers: BioSample: SAMN15184845; GEO: GSM4602330
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="14.96"
+    /age="32"
+    /sex="male"
+    /sequencing_batch="O"
+Accession: SAMN15184845	ID: 15184845
+
+458: POS_099
+Identifiers: BioSample: SAMN15184844; GEO: GSM4602336
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="28.78"
+    /age="72"
+    /sex="female"
+    /sequencing_batch="B"
+Accession: SAMN15184844	ID: 15184844
+
+459: POS_100
+Identifiers: BioSample: SAMN15184843; GEO: GSM4602337
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.11"
+    /age="54"
+    /sex="female"
+    /sequencing_batch="C"
+Accession: SAMN15184843	ID: 15184843
+
+460: POS_101
+Identifiers: BioSample: SAMN15184842; GEO: GSM4602338
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="27.8"
+    /age="22"
+    /sex="female"
+    /sequencing_batch="C"
+Accession: SAMN15184842	ID: 15184842
+
+461: POS_102
+Identifiers: BioSample: SAMN15184841; GEO: GSM4602339
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.23"
+    /age="64"
+    /sex="male"
+    /sequencing_batch="B"
+Accession: SAMN15184841	ID: 15184841
+
+462: POS_103
+Identifiers: BioSample: SAMN15184840; GEO: GSM4602340
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.31"
+    /age="43"
+    /sex="female"
+    /sequencing_batch="B"
+Accession: SAMN15184840	ID: 15184840
+
+463: POS_104
+Identifiers: BioSample: SAMN15184839; GEO: GSM4602341
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.94"
+    /age="59"
+    /sex="male"
+    /sequencing_batch="B"
+Accession: SAMN15184839	ID: 15184839
+
+464: POS_105
+Identifiers: BioSample: SAMN15184838; GEO: GSM4602342
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.49"
+    /age="81"
+    /sex="male"
+    /sequencing_batch="B"
+Accession: SAMN15184838	ID: 15184838
+
+465: POS_106
+Identifiers: BioSample: SAMN15184837; GEO: GSM4602343
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.18"
+    /age="54"
+    /sex="male"
+    /sequencing_batch="B"
+Accession: SAMN15184837	ID: 15184837
+
+466: POS_001
+Identifiers: BioSample: SAMN15184836; GEO: GSM4602241
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.88"
+    /age="64"
+    /sex="male"
+    /sequencing_batch="I"
+Accession: SAMN15184836	ID: 15184836
+
+467: POS_002
+Identifiers: BioSample: SAMN15184835; GEO: GSM4602242
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.18"
+    /age="30"
+    /sex="female"
+    /sequencing_batch="I"
+Accession: SAMN15184835	ID: 15184835
+
+468: POS_003
+Identifiers: BioSample: SAMN15184834; GEO: GSM4602243
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="24.24"
+    /age="47"
+    /sex="male"
+    /sequencing_batch="I"
+Accession: SAMN15184834	ID: 15184834
+
+469: POS_004
+Identifiers: BioSample: SAMN15184833; GEO: GSM4602244
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.91"
+    /age="67"
+    /sex="female"
+    /sequencing_batch="G"
+Accession: SAMN15184833	ID: 15184833
+
+470: POS_005
+Identifiers: BioSample: SAMN15184832; GEO: GSM4602245
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.62"
+    /age="62"
+    /sex="male"
+    /sequencing_batch="H"
+Accession: SAMN15184832	ID: 15184832
+
+471: POS_006
+Identifiers: BioSample: SAMN15184831; GEO: GSM4602246
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.61"
+    /age="52"
+    /sex="female"
+    /sequencing_batch="H"
+Accession: SAMN15184831	ID: 15184831
+
+472: POS_007
+Identifiers: BioSample: SAMN15184830; GEO: GSM4602247
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.8735"
+    /age="39"
+    /sex="male"
+    /sequencing_batch="G"
+Accession: SAMN15184830	ID: 15184830
+
+473: POS_008
+Identifiers: BioSample: SAMN15184829; GEO: GSM4602248
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.91"
+    /age="59"
+    /sex="female"
+    /sequencing_batch="I"
+Accession: SAMN15184829	ID: 15184829
+
+474: POS_009
+Identifiers: BioSample: SAMN15184828; GEO: GSM4602249
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="21.85"
+    /age="60"
+    /sex="female"
+    /sequencing_batch="I"
+Accession: SAMN15184828	ID: 15184828
+
+475: POS_010
+Identifiers: BioSample: SAMN15184827; GEO: GSM4602250
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="17.99"
+    /age="71"
+    /sex="male"
+    /sequencing_batch="I"
+Accession: SAMN15184827	ID: 15184827
+
+476: POS_011
+Identifiers: BioSample: SAMN15184826; GEO: GSM4602251
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="18.63"
+    /age="64"
+    /sex="male"
+    /sequencing_batch="H"
+Accession: SAMN15184826	ID: 15184826
+
+477: POS_012
+Identifiers: BioSample: SAMN15184825; GEO: GSM4602252
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.3"
+    /age="45"
+    /sex="female"
+    /sequencing_batch="I"
+Accession: SAMN15184825	ID: 15184825
+
+478: POS_013
+Identifiers: BioSample: SAMN15184824; GEO: GSM4602253
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.7662"
+    /age="42"
+    /sex="not collected"
+    /sequencing_batch="G"
+Accession: SAMN15184824	ID: 15184824
+
+479: POS_014
+Identifiers: BioSample: SAMN15184823; GEO: GSM4602254
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.47"
+    /age="53"
+    /sex="female"
+    /sequencing_batch="M"
+Accession: SAMN15184823	ID: 15184823
+
+480: POS_015
+Identifiers: BioSample: SAMN15184822; GEO: GSM4602255
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="19.34"
+    /age="86"
+    /sex="female"
+    /sequencing_batch="G"
+Accession: SAMN15184822	ID: 15184822
+
+481: POS_016
+Identifiers: BioSample: SAMN15184821; GEO: GSM4602256
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="23.95"
+    /age="50"
+    /sex="female"
+    /sequencing_batch="I"
+Accession: SAMN15184821	ID: 15184821
+
+482: POS_017
+Identifiers: BioSample: SAMN15184820; GEO: GSM4602257
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="15.5"
+    /age="65"
+    /sex="female"
+    /sequencing_batch="H"
+Accession: SAMN15184820	ID: 15184820
+
+483: POS_018
+Identifiers: BioSample: SAMN15184819; GEO: GSM4602258
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="25.5"
+    /age="34"
+    /sex="female"
+    /sequencing_batch="M"
+Accession: SAMN15184819	ID: 15184819
+
+484: POS_019
+Identifiers: BioSample: SAMN15184818; GEO: GSM4602259
+Organism: Homo sapiens
+Attributes:
+    /source name="Nasopharyngeal Swab"
+    /sars-cov-2 positivity="pos"
+    /n1_ct="22.68"
+    /age="67"
+    /sex="male"
+    /sequencing_batch="M"
+Accession: SAMN15184818	ID: 15184818
+
+
